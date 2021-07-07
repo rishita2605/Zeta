@@ -1,11 +1,11 @@
-com/example/zeta/databinding/ActivityOxygenCylindersBinding.java
- com.example.zeta.databinding.ActivityOxygenCylindersBinding
 com/example/zeta/databinding/ActivityBedvaccancyBinding.java
  com.example.zeta.databinding.ActivityBedvaccancyBinding
-com/example/zeta/databinding/ActivityLocationBinding.java
- com.example.zeta.databinding.ActivityLocationBinding
 com/example/zeta/databinding/ActivityChildcareBinding.java
  com.example.zeta.databinding.ActivityChildcareBinding
+com/example/zeta/databinding/ActivityLocationBinding.java
+ com.example.zeta.databinding.ActivityLocationBinding
+com/example/zeta/databinding/ActivityOxygenCylindersBinding.java
+ com.example.zeta.databinding.ActivityOxygenCylindersBinding
 com/example/zeta/Bedvaccancy.java
  com.example.zeta.Bedvaccancy
 com/example/zeta/Signup.java
