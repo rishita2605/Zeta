@@ -1893,13 +1893,13 @@ int id dropdown_menu 0x7f0a00a1
 int id easeIn 0x7f0a00a2
 int id easeInOut 0x7f0a00a3
 int id easeOut 0x7f0a00a4
+int id editTextTextPassword 0x7f0a01e4
 int id editTextTextPersonName 0x7f0a00a5
 int id editTextTextPersonName2 0x7f0a00a6
 int id editTextTextPersonName3 0x7f0a00a7
 int id editTextTextPersonName4 0x7f0a00a8
 int id editTextTextPersonName5 0x7f0a00a9
-int id editTextTextPersonName6 0x7f0a00aa
-int id editTextTextPersonName7 0x7f0a00ab
+int id editTextTextPersonName8 0x7f0a01e5
 int id edit_query 0x7f0a00ac
 int id elastic 0x7f0a00ad
 int id end 0x7f0a00ae
@@ -1969,6 +1969,7 @@ int id line3 0x7f0a00e6
 int id linear 0x7f0a00e7
 int id listMode 0x7f0a00e8
 int id list_item 0x7f0a00e9
+int id loc 0x7f0a01e6
 int id masked 0x7f0a00ea
 int id material_clock_display 0x7f0a00eb
 int id material_clock_face 0x7f0a00ec
@@ -2154,6 +2155,7 @@ int id textView13 0x7f0a01d9
 int id textView14 0x7f0a01da
 int id textView15 0x7f0a01db
 int id textView16 0x7f0a01dc
+int id textView17 0x7f0a01e7
 int id textView18 0x7f0a01dd
 int id textView19 0x7f0a01de
 int id textView2 0x7f0a019f

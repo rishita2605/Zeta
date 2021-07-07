@@ -25,10 +25,10 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final Button button2;
 
   @NonNull
-  public final EditText editTextTextPersonName5;
+  public final EditText editTextTextPassword;
 
   @NonNull
-  public final EditText editTextTextPersonName6;
+  public final EditText editTextTextPersonName5;
 
   @NonNull
   public final ImageView imageView;
@@ -46,13 +46,13 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final TextView textView7;
 
   private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull Button button2,
-      @NonNull EditText editTextTextPersonName5, @NonNull EditText editTextTextPersonName6,
+      @NonNull EditText editTextTextPassword, @NonNull EditText editTextTextPersonName5,
       @NonNull ImageView imageView, @NonNull TextView textView2, @NonNull TextView textView3,
       @NonNull TextView textView5, @NonNull TextView textView7) {
     this.rootView = rootView;
     this.button2 = button2;
+    this.editTextTextPassword = editTextTextPassword;
     this.editTextTextPersonName5 = editTextTextPersonName5;
-    this.editTextTextPersonName6 = editTextTextPersonName6;
     this.imageView = imageView;
     this.textView2 = textView2;
     this.textView3 = textView3;
@@ -93,15 +93,15 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.editTextTextPersonName5;
-      EditText editTextTextPersonName5 = rootView.findViewById(id);
-      if (editTextTextPersonName5 == null) {
+      id = R.id.editTextTextPassword;
+      EditText editTextTextPassword = rootView.findViewById(id);
+      if (editTextTextPassword == null) {
         break missingId;
       }
 
-      id = R.id.editTextTextPersonName6;
-      EditText editTextTextPersonName6 = rootView.findViewById(id);
-      if (editTextTextPersonName6 == null) {
+      id = R.id.editTextTextPersonName5;
+      EditText editTextTextPersonName5 = rootView.findViewById(id);
+      if (editTextTextPersonName5 == null) {
         break missingId;
       }
 
@@ -135,8 +135,8 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLoginBinding((ConstraintLayout) rootView, button2, editTextTextPersonName5,
-          editTextTextPersonName6, imageView, textView2, textView3, textView5, textView7);
+      return new ActivityLoginBinding((ConstraintLayout) rootView, button2, editTextTextPassword,
+          editTextTextPersonName5, imageView, textView2, textView3, textView5, textView7);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

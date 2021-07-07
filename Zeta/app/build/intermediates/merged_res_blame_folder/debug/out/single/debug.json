@@ -12,12 +12,12 @@
         "source": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/src/main/res/layout/activity_services.xml"
     },
     {
-        "merged": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
-    },
-    {
         "merged": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/build/intermediates/res/merged/debug/drawable_pharmacy.png.flat",
         "source": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/src/main/res/drawable/pharmacy.png"
+    },
+    {
+        "merged": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/build/intermediates/res/merged/debug/drawable_volunteer.png.flat",
@@ -44,12 +44,12 @@
         "source": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/src/main/res/layout/activity_bedvaccancy.xml"
     },
     {
-        "merged": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/build/intermediates/res/merged/debug/drawable_rectangle.xml.flat",
-        "source": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/src/main/res/drawable/rectangle.xml"
-    },
-    {
         "merged": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/build/intermediates/res/merged/debug/drawable_mental.png.flat",
         "source": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/src/main/res/drawable/mental.png"
+    },
+    {
+        "merged": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/build/intermediates/res/merged/debug/drawable_rectangle.xml.flat",
+        "source": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/src/main/res/drawable/rectangle.xml"
     },
     {
         "merged": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
