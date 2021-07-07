@@ -28,6 +28,8 @@ public class MentalHealth extends AppCompatActivity {
     }
 
     public void parseJSON(){
+        Bundle bundle=getIntent().getExtras();
+        String place=bundle.getString("loc");
         String json;
         try{
             InputStream is=getAssets().open("mentalhealth.json");
@@ -42,7 +44,7 @@ public class MentalHealth extends AppCompatActivity {
             for(int i=0; i<jsonArray.length(); i++){
                 JSONObject obj=jsonArray.getJSONObject(i);
 
-                if(obj.getString("City").equals("Bangalore")){
+                if(obj.getString("City").equals(place)){
                     numberlist.add(obj.getString("Contact Number"));
                     psychiatristlist.add(obj.getString("Name of the Psychiatrist"));
                     emaillist.add(obj.getString("E-Mail Address"));

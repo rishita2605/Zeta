@@ -24,7 +24,7 @@
             app:srcCompat="@drawable/mapdude" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName7"
+            android:id="@+id/loc"
             android:layout_width="match_parent"
             android:layout_height="50sp"
             android:layout_marginStart="30sp"

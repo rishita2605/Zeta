@@ -35,6 +35,8 @@ public class OxygenCylinders extends AppCompatActivity {
     }
 
     public void parseJSON(){
+        Bundle bundle=getIntent().getExtras();
+        String place=bundle.getString("loc");
         String json;
         try{
             InputStream is=getAssets().open("oxygenCylinders.json");
@@ -49,7 +51,7 @@ public class OxygenCylinders extends AppCompatActivity {
             for(int i=0; i<jsonArray.length(); i++){
                 JSONObject obj=jsonArray.getJSONObject(i);
 
-                if(obj.getString("City").equals("Bangalore")){
+                if(obj.getString("City").equals(place)){
                     numberlist.add(obj.getString("Phone number"));
                     agencylist.add(obj.getString("Agency name"));
                     namelist.add(obj.getString("Name"));
