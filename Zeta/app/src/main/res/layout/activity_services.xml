@@ -4,23 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient"
     tools:context=".Services">
 
     <LinearLayout
         android:layout_width="409dp"
         android:layout_height="729dp"
+        android:background="@drawable/gradient"
+        android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:background="@drawable/gradient">
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/textView13"
             android:layout_width="match_parent"
             android:layout_height="60sp"
-            android:layout_marginTop="40sp"
             android:fontFamily="@font/reem_kufi"
             android:gravity="center"
             android:text="What kind of help do you need?"
@@ -30,11 +31,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="150sp"
-            android:layout_marginStart="30sp"
-            android:layout_marginLeft="30sp"
             android:layout_marginTop="40sp"
-            android:layout_marginEnd="30sp"
-            android:layout_marginRight="30sp"
+            android:gravity="center"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -106,11 +104,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="150sp"
-            android:layout_marginStart="30sp"
-            android:layout_marginLeft="30sp"
             android:layout_marginTop="40sp"
-            android:layout_marginEnd="30sp"
-            android:layout_marginRight="30sp"
+            android:gravity="center"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -180,11 +175,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="150sp"
-            android:layout_marginStart="30sp"
-            android:layout_marginLeft="30sp"
             android:layout_marginTop="40sp"
-            android:layout_marginEnd="30sp"
-            android:layout_marginRight="30sp"
+            android:gravity="center"
             android:orientation="horizontal">
 
             <LinearLayout

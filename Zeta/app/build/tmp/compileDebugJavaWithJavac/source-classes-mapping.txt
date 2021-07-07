@@ -22,6 +22,11 @@ com/example/zeta/Location.java
  com.example.zeta.Location
 com/example/zeta/Services.java
  com.example.zeta.Services
+ com.example.zeta.Services$1
+ com.example.zeta.Services$2
+ com.example.zeta.Services$3
+ com.example.zeta.Services$4
+ com.example.zeta.Services$5
 com/example/zeta/databinding/ActivityMainBinding.java
  com.example.zeta.databinding.ActivityMainBinding
 com/example/zeta/Login.java

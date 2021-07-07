@@ -22,22 +22,22 @@ public final class ActivityLoginBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button button2;
-
-  @NonNull
-  public final EditText editTextTextPassword;
-
-  @NonNull
-  public final EditText editTextTextPersonName5;
-
-  @NonNull
   public final ImageView imageView;
 
   @NonNull
-  public final TextView textView2;
+  public final EditText lemail;
 
   @NonNull
-  public final TextView textView3;
+  public final Button loginbtn;
+
+  @NonNull
+  public final EditText lpassword;
+
+  @NonNull
+  public final TextView lsignup;
+
+  @NonNull
+  public final TextView textView2;
 
   @NonNull
   public final TextView textView5;
@@ -45,17 +45,17 @@ public final class ActivityLoginBinding implements ViewBinding {
   @NonNull
   public final TextView textView7;
 
-  private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull Button button2,
-      @NonNull EditText editTextTextPassword, @NonNull EditText editTextTextPersonName5,
-      @NonNull ImageView imageView, @NonNull TextView textView2, @NonNull TextView textView3,
-      @NonNull TextView textView5, @NonNull TextView textView7) {
+  private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView imageView,
+      @NonNull EditText lemail, @NonNull Button loginbtn, @NonNull EditText lpassword,
+      @NonNull TextView lsignup, @NonNull TextView textView2, @NonNull TextView textView5,
+      @NonNull TextView textView7) {
     this.rootView = rootView;
-    this.button2 = button2;
-    this.editTextTextPassword = editTextTextPassword;
-    this.editTextTextPersonName5 = editTextTextPersonName5;
     this.imageView = imageView;
+    this.lemail = lemail;
+    this.loginbtn = loginbtn;
+    this.lpassword = lpassword;
+    this.lsignup = lsignup;
     this.textView2 = textView2;
-    this.textView3 = textView3;
     this.textView5 = textView5;
     this.textView7 = textView7;
   }
@@ -87,39 +87,39 @@ public final class ActivityLoginBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.button2;
-      Button button2 = rootView.findViewById(id);
-      if (button2 == null) {
-        break missingId;
-      }
-
-      id = R.id.editTextTextPassword;
-      EditText editTextTextPassword = rootView.findViewById(id);
-      if (editTextTextPassword == null) {
-        break missingId;
-      }
-
-      id = R.id.editTextTextPersonName5;
-      EditText editTextTextPersonName5 = rootView.findViewById(id);
-      if (editTextTextPersonName5 == null) {
-        break missingId;
-      }
-
       id = R.id.imageView;
       ImageView imageView = rootView.findViewById(id);
       if (imageView == null) {
         break missingId;
       }
 
-      id = R.id.textView2;
-      TextView textView2 = rootView.findViewById(id);
-      if (textView2 == null) {
+      id = R.id.lemail;
+      EditText lemail = rootView.findViewById(id);
+      if (lemail == null) {
         break missingId;
       }
 
-      id = R.id.textView3;
-      TextView textView3 = rootView.findViewById(id);
-      if (textView3 == null) {
+      id = R.id.loginbtn;
+      Button loginbtn = rootView.findViewById(id);
+      if (loginbtn == null) {
+        break missingId;
+      }
+
+      id = R.id.lpassword;
+      EditText lpassword = rootView.findViewById(id);
+      if (lpassword == null) {
+        break missingId;
+      }
+
+      id = R.id.lsignup;
+      TextView lsignup = rootView.findViewById(id);
+      if (lsignup == null) {
+        break missingId;
+      }
+
+      id = R.id.textView2;
+      TextView textView2 = rootView.findViewById(id);
+      if (textView2 == null) {
         break missingId;
       }
 
@@ -135,8 +135,8 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLoginBinding((ConstraintLayout) rootView, button2, editTextTextPassword,
-          editTextTextPersonName5, imageView, textView2, textView3, textView5, textView7);
+      return new ActivityLoginBinding((ConstraintLayout) rootView, imageView, lemail, loginbtn,
+          lpassword, lsignup, textView2, textView5, textView7);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
