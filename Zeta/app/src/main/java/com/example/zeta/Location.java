@@ -27,5 +27,9 @@ public class Location extends AppCompatActivity {
         pb.putExtra("loc", String.valueOf(locationstr));
         pm.putExtra("loc", String.valueOf(locationstr));
         po.putExtra("loc", String.valueOf(locationstr));
+        startActivity(pc);
+        startActivity(pb);
+        startActivity(pm);
+        startActivity(po);
     }
 }
