@@ -40,20 +40,20 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:layout_marginStart="20sp"
-            android:layout_marginLeft="20sp"
-            android:layout_marginTop="60sp"
-            android:layout_marginEnd="10sp"
-            android:layout_marginRight="10sp"
+            android:layout_marginStart="40sp"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="30sp"
+            android:layout_marginEnd="40sp"
+            android:layout_marginRight="40sp"
             android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/textView8"
-                android:layout_width="84dp"
+                android:layout_width="140dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:fontFamily="@font/reem_kufi"
-                android:gravity="center_horizontal|left|center_vertical"
+                android:gravity="left|center_vertical"
                 android:text="Name:"
                 android:textColor="#000000"
                 android:textSize="20sp" />
@@ -64,6 +64,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:fontFamily="@font/reem_kufi"
+                android:gravity="left|center_vertical"
                 android:inputType="textPersonName"
                 android:textColor="#000000" />
         </LinearLayout>
@@ -71,19 +73,19 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:layout_marginStart="20sp"
-            android:layout_marginLeft="20sp"
-            android:layout_marginEnd="10sp"
-            android:layout_marginRight="10sp"
+            android:layout_marginStart="40sp"
+            android:layout_marginLeft="40sp"
+            android:layout_marginEnd="40sp"
+            android:layout_marginRight="40sp"
             android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/textView9"
-                android:layout_width="84dp"
+                android:layout_width="140dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:fontFamily="@font/reem_kufi"
-                android:gravity="center_horizontal|left|center_vertical"
+                android:gravity="left|center_vertical"
                 android:text="Location:"
                 android:textColor="#000000"
                 android:textSize="20sp" />
@@ -94,6 +96,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:fontFamily="@font/reem_kufi"
+                android:gravity="left|center_vertical"
                 android:inputType="textPersonName"
                 android:textColor="#000000" />
         </LinearLayout>
@@ -101,19 +105,19 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:layout_marginStart="20sp"
-            android:layout_marginLeft="20sp"
-            android:layout_marginEnd="10sp"
-            android:layout_marginRight="10sp"
+            android:layout_marginStart="40sp"
+            android:layout_marginLeft="40sp"
+            android:layout_marginEnd="40sp"
+            android:layout_marginRight="40sp"
             android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/textView10"
-                android:layout_width="84dp"
+                android:layout_width="140dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:fontFamily="@font/reem_kufi"
-                android:gravity="center_horizontal|left|center_vertical"
+                android:gravity="left|center_vertical"
                 android:text="Email-ID:"
                 android:textColor="#000000"
                 android:textSize="20sp" />
@@ -124,6 +128,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:fontFamily="@font/reem_kufi"
+                android:gravity="left|center_vertical"
                 android:inputType="textPersonName"
                 android:textColor="#000000" />
         </LinearLayout>
@@ -131,19 +137,19 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:layout_marginStart="20sp"
-            android:layout_marginLeft="20sp"
-            android:layout_marginEnd="10sp"
-            android:layout_marginRight="10sp"
+            android:layout_marginStart="40sp"
+            android:layout_marginLeft="40sp"
+            android:layout_marginEnd="40sp"
+            android:layout_marginRight="40sp"
             android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/textView11"
-                android:layout_width="84dp"
+                android:layout_width="140dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:fontFamily="@font/reem_kufi"
-                android:gravity="center_horizontal|left|center_vertical"
+                android:gravity="left|center_vertical"
                 android:text="Password:"
                 android:textColor="#000000"
                 android:textSize="20sp" />
@@ -154,15 +160,51 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="textPersonName"
+                android:fontFamily="@font/reem_kufi"
+                android:gravity="left|center_vertical"
+                android:inputType="textPassword"
                 android:textColor="#000000" />
         </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="40sp"
+            android:layout_marginLeft="40sp"
+            android:layout_marginEnd="40sp"
+            android:layout_marginRight="40sp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/reem_kufi"
+                android:gravity="left|center_vertical"
+                android:text="Phone No.:"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:fontFamily="@font/reem_kufi"
+                android:gravity="left|center_vertical"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
 
         <TextView
             android:id="@+id/textView12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50sp"
+            android:layout_marginTop="30sp"
             android:fontFamily="@font/reem_kufi"
             android:gravity="center"
             android:text="What can you help with?"
@@ -232,7 +274,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="@font/reem_kufi"
-                android:text="Blood Donation"
+                android:text="Food Donation"
                 android:textSize="16sp" />
         </LinearLayout>
 
@@ -242,7 +284,7 @@
             android:layout_height="60sp"
             android:layout_marginStart="220sp"
             android:layout_marginLeft="220sp"
-            android:layout_marginTop="40sp"
+            android:layout_marginTop="30sp"
             android:layout_marginEnd="40sp"
             android:layout_marginRight="40sp"
             android:fontFamily="@font/reem_kufi"

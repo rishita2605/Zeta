@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Services">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/gradient">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:layout_marginTop="40sp"
+            android:fontFamily="@font/reem_kufi"
+            android:gravity="center"
+            android:text="What kind of help do you need?"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150sp"
+            android:layout_marginStart="30sp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="40sp"
+            android:layout_marginEnd="30sp"
+            android:layout_marginRight="30sp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="150sp"
+                android:layout_height="match_parent"
+                android:background="@drawable/rectangle"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="73dp"
+                    android:layout_marginTop="20sp"
+                    app:srcCompat="@drawable/oxygencylinder" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:fontFamily="@font/reem_kufi"
+                    android:gravity="center"
+                    android:text="O X Y G E N"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/reem_kufi"
+                    android:gravity="center"
+                    android:text="C Y L I N D E R S"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150sp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="45sp"
+                android:layout_marginLeft="45sp"
+                android:background="@drawable/rectangle"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="73dp"
+                    android:layout_marginTop="20sp"
+                    app:srcCompat="@drawable/hospital" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18sp"
+                    android:fontFamily="@font/reem_kufi"
+                    android:gravity="center"
+                    android:text="B E D   V A C A N C I E S"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150sp"
+            android:layout_marginStart="30sp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="40sp"
+            android:layout_marginEnd="30sp"
+            android:layout_marginRight="30sp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="150sp"
+                android:layout_height="match_parent"
+                android:background="@drawable/rectangle"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="73dp"
+                    android:layout_marginTop="20sp"
+                    app:srcCompat="@drawable/pharmacy" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18sp"
+                    android:fontFamily="@font/reem_kufi"
+                    android:gravity="center"
+                    android:text="P H A R M A C I E S"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150sp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="45sp"
+                android:layout_marginLeft="45sp"
+                android:background="@drawable/rectangle"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="73dp"
+                    android:layout_marginTop="20sp"
+                    app:srcCompat="@drawable/volunteer" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:fontFamily="@font/reem_kufi"
+                    android:gravity="center"
+                    android:text="V O L U N T E E R S /"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/reem_kufi"
+                    android:gravity="center"
+                    android:text="D O N O R S"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150sp"
+            android:layout_marginStart="30sp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="40sp"
+            android:layout_marginEnd="30sp"
+            android:layout_marginRight="30sp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="150sp"
+                android:layout_height="match_parent"
+                android:background="@drawable/rectangle"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="73dp"
+                    android:layout_marginTop="20sp"
+                    app:srcCompat="@drawable/mental" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:fontFamily="@font/reem_kufi"
+                    android:gravity="center"
+                    android:text="M E N T A L   H E A L T H"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/reem_kufi"
+                    android:gravity="center"
+                    android:text="S E R V I C E S"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150sp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="45sp"
+                android:layout_marginLeft="45sp"
+                android:background="@drawable/rectangle"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="73dp"
+                    android:layout_marginTop="20sp"
+                    app:srcCompat="@drawable/childsupport" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:fontFamily="@font/reem_kufi"
+                    android:gravity="center"
+                    android:text="C H I L D C A R E"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/reem_kufi"
+                    android:gravity="center"
+                    android:text="S E R V I C E S"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

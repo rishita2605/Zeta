@@ -49,6 +49,9 @@ public final class ActivitySignupBinding implements ViewBinding {
   public final EditText editTextTextPersonName4;
 
   @NonNull
+  public final EditText editTextTextPersonName8;
+
+  @NonNull
   public final TextView textView;
 
   @NonNull
@@ -59,6 +62,9 @@ public final class ActivitySignupBinding implements ViewBinding {
 
   @NonNull
   public final TextView textView12;
+
+  @NonNull
+  public final TextView textView17;
 
   @NonNull
   public final TextView textView6;
@@ -73,9 +79,10 @@ public final class ActivitySignupBinding implements ViewBinding {
       @NonNull CheckBox checkBox4, @NonNull CheckBox checkBox5, @NonNull CheckBox checkBox6,
       @NonNull CheckBox checkBox7, @NonNull EditText editTextTextPersonName,
       @NonNull EditText editTextTextPersonName2, @NonNull EditText editTextTextPersonName3,
-      @NonNull EditText editTextTextPersonName4, @NonNull TextView textView,
-      @NonNull TextView textView10, @NonNull TextView textView11, @NonNull TextView textView12,
-      @NonNull TextView textView6, @NonNull TextView textView8, @NonNull TextView textView9) {
+      @NonNull EditText editTextTextPersonName4, @NonNull EditText editTextTextPersonName8,
+      @NonNull TextView textView, @NonNull TextView textView10, @NonNull TextView textView11,
+      @NonNull TextView textView12, @NonNull TextView textView17, @NonNull TextView textView6,
+      @NonNull TextView textView8, @NonNull TextView textView9) {
     this.rootView = rootView;
     this.button = button;
     this.checkBox4 = checkBox4;
@@ -86,10 +93,12 @@ public final class ActivitySignupBinding implements ViewBinding {
     this.editTextTextPersonName2 = editTextTextPersonName2;
     this.editTextTextPersonName3 = editTextTextPersonName3;
     this.editTextTextPersonName4 = editTextTextPersonName4;
+    this.editTextTextPersonName8 = editTextTextPersonName8;
     this.textView = textView;
     this.textView10 = textView10;
     this.textView11 = textView11;
     this.textView12 = textView12;
+    this.textView17 = textView17;
     this.textView6 = textView6;
     this.textView8 = textView8;
     this.textView9 = textView9;
@@ -176,6 +185,12 @@ public final class ActivitySignupBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.editTextTextPersonName8;
+      EditText editTextTextPersonName8 = rootView.findViewById(id);
+      if (editTextTextPersonName8 == null) {
+        break missingId;
+      }
+
       id = R.id.textView;
       TextView textView = rootView.findViewById(id);
       if (textView == null) {
@@ -200,6 +215,12 @@ public final class ActivitySignupBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView17;
+      TextView textView17 = rootView.findViewById(id);
+      if (textView17 == null) {
+        break missingId;
+      }
+
       id = R.id.textView6;
       TextView textView6 = rootView.findViewById(id);
       if (textView6 == null) {
@@ -220,8 +241,8 @@ public final class ActivitySignupBinding implements ViewBinding {
 
       return new ActivitySignupBinding((ConstraintLayout) rootView, button, checkBox4, checkBox5,
           checkBox6, checkBox7, editTextTextPersonName, editTextTextPersonName2,
-          editTextTextPersonName3, editTextTextPersonName4, textView, textView10, textView11,
-          textView12, textView6, textView8, textView9);
+          editTextTextPersonName3, editTextTextPersonName4, editTextTextPersonName8, textView,
+          textView10, textView11, textView12, textView17, textView6, textView8, textView9);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
