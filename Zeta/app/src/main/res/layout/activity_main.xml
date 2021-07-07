@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -35,7 +36,7 @@
                 <TextView
                     android:id="@+id/textView4"
                     android:layout_width="140dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="155dp"
                     android:layout_marginTop="25sp"
                     android:layout_weight="1"
                     android:fontFamily="@font/reem_kufi"
@@ -45,7 +46,7 @@
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/button3"
+                    android:id="@+id/needhelpbtn"
                     android:layout_width="wrap_content"
                     android:layout_height="8dp"
                     android:layout_marginStart="15sp"
@@ -54,7 +55,7 @@
                     android:layout_weight="1"
                     android:fontFamily="@font/reem_kufi"
                     android:text="N E E D   H E L P ?"
-                    android:textSize="11sp"
+                    android:textSize="12sp"
                     app:cornerRadius="40dp" />
 
             </LinearLayout>
@@ -102,7 +103,7 @@
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/button4"
+                    android:id="@+id/helpbtn"
                     android:layout_width="174dp"
                     android:layout_height="55dp"
                     android:layout_marginTop="45sp"

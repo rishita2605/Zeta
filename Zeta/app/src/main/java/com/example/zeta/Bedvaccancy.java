@@ -23,7 +23,8 @@ public class Bedvaccancy extends AppCompatActivity {
         parseJson();
     }
     public void parseJson()
-    {
+    {  Bundle bundle=getIntent().getExtras();
+        String place=bundle.getString("loc");
         try
         {
             InputStream inputStream=getAssets().open("bedvaccancy.json");
@@ -37,7 +38,7 @@ public class Bedvaccancy extends AppCompatActivity {
             {
                 JSONObject jsonObject= jsonarray.getJSONObject(i);
 
-                if(jsonObject.getString("city").equals(""))
+                if(jsonObject.getString("city").equals(place))
                     addresslist.add(jsonObject.getString("street_address"));
                 namelist.add(jsonObject.getString("name"));
 

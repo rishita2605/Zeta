@@ -1824,8 +1824,6 @@ id bottom
 id bounce
 id button
 id button2
-id button3
-id button4
 id button5
 id buttonPanel
 id cache_measures
@@ -1903,7 +1901,6 @@ id editTextTextPersonName4
 id editTextTextPersonName5
 id editTextTextPersonName6
 id editTextTextPersonName7
-id editTextTextPersonName8
 id edit_query
 id elastic
 id end
@@ -1934,6 +1931,7 @@ id grouping
 id groups
 id guideline
 id header_title
+id helpbtn
 id hideable
 id home
 id homeAsUp
@@ -2029,6 +2027,7 @@ id multiply
 id nav_controller_view_tag
 id nav_host_fragment_container
 id navigation_header_container
+id needhelpbtn
 id never
 id noScroll
 id none
@@ -2156,7 +2155,6 @@ id textView13
 id textView14
 id textView15
 id textView16
-id textView17
 id textView18
 id textView19
 id textView2

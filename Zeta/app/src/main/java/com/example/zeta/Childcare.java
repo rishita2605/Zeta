@@ -28,7 +28,11 @@ public class Childcare extends AppCompatActivity {
         parseJson();
     }
     public void parseJson()
-    {
+    {   Bundle bundle=getIntent().getExtras();
+        String place=bundle.getString("loc");
+
+
+
         try
         {
             InputStream inputStream=getAssets().open("childcare.json");
@@ -42,7 +46,7 @@ public class Childcare extends AppCompatActivity {
             {
                 JSONObject jsonObject= jsonarray.getJSONObject(i);
 
-                if(jsonObject.getString("City").equals(""))
+                if(jsonObject.getString("City").equals(place))
                     addresslist.add(jsonObject.getString("Address"));
                 namelist.add(jsonObject.getString("Name"));
                 phonelist.add(jsonObject.getString("Ph no"));
