@@ -35,7 +35,7 @@ public class Childcare extends AppCompatActivity {
             int size= inputStream.available();
             byte[] data=new byte[size];
             inputStream.read(data);
-            String readData=new String(data);
+            String readData=new String(data,"UTF-8");
             JSONArray jsonarray= new JSONArray(readData);
 
             for(int i=0; i<jsonarray.length(); i++)
