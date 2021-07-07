@@ -26,6 +26,10 @@
         <activity android:name="com.example.zeta.Location" />
         <activity android:name="com.example.zeta.Login" />
         <activity android:name="com.example.zeta.Signup" />
+        <activity android:name="com.example.zeta.Bedvaccancy" />
+        <activity android:name="com.example.zeta.Childcare" />
+        <activity android:name="com.example.zeta.OxygenCylinders" />
+        <activity android:name="com.example.zeta.MentalHealth" />
         <activity android:name="com.example.zeta.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

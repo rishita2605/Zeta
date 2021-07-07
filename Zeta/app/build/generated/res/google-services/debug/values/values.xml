@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">936851715045-d176rspbojmk16ntfpu2ld8imqk98d0h.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">936851715045</string>
+    <string name="google_api_key" translatable="false">AIzaSyDrGJCG6nxfRIuuj8aTQI-oMobMUNa0wEQ</string>
+    <string name="google_app_id" translatable="false">1:936851715045:android:86e30f2021c7e4060eb50c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDrGJCG6nxfRIuuj8aTQI-oMobMUNa0wEQ</string>
+    <string name="google_storage_bucket" translatable="false">zeta-c1b47.appspot.com</string>
+    <string name="project_id" translatable="false">zeta-c1b47</string>
+</resources>

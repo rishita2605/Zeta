@@ -40,14 +40,17 @@
                 android:layout_width="150sp"
                 android:layout_height="match_parent"
                 android:background="@drawable/rectangle"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:clickable="true">
 
                 <ImageView
-                    android:id="@+id/imageView5"
+                    android:id="@+id/oxyimg"
                     android:layout_width="match_parent"
                     android:layout_height="73dp"
                     android:layout_marginTop="20sp"
-                    app:srcCompat="@drawable/oxygencylinder" />
+                    app:srcCompat="@drawable/oxygencylinder"
+                    android:clickable="false"
+                    />
 
                 <TextView
                     android:id="@+id/textView14"
@@ -58,7 +61,8 @@
                     android:gravity="center"
                     android:text="O X Y G E N"
                     android:textColor="#000000"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"
+                    android:clickable="false"/>
 
                 <TextView
                     android:id="@+id/textView15"
@@ -68,7 +72,8 @@
                     android:gravity="center"
                     android:text="C Y L I N D E R S"
                     android:textColor="#000000"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"
+                    android:clickable="false"/>
             </LinearLayout>
 
             <LinearLayout
@@ -78,14 +83,16 @@
                 android:layout_marginStart="45sp"
                 android:layout_marginLeft="45sp"
                 android:background="@drawable/rectangle"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:clickable="true">
 
                 <ImageView
                     android:id="@+id/imageView6"
                     android:layout_width="match_parent"
                     android:layout_height="73dp"
                     android:layout_marginTop="20sp"
-                    app:srcCompat="@drawable/hospital" />
+                    app:srcCompat="@drawable/hospital"
+                    android:clickable="false"/>
 
                 <TextView
                     android:id="@+id/textView16"
@@ -96,7 +103,8 @@
                     android:gravity="center"
                     android:text="B E D   V A C A N C I E S"
                     android:textColor="#000000"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"
+                    android:clickable="false"/>
 
             </LinearLayout>
         </LinearLayout>

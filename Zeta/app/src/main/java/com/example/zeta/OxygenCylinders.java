@@ -36,7 +36,8 @@ public class OxygenCylinders extends AppCompatActivity {
 
     public void parseJSON(){
         Bundle bundle=getIntent().getExtras();
-        String place=bundle.getString("loc");
+        //String place=bundle.getString("loc"); //remove this comment when everything integrated
+        String place="Bangalore";
         String json;
         try{
             InputStream is=getAssets().open("oxygenCylinders.json");

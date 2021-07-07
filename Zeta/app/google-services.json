@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "936851715045",
+    "project_id": "zeta-c1b47",
+    "storage_bucket": "zeta-c1b47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936851715045:android:86e30f2021c7e4060eb50c",
+        "android_client_info": {
+          "package_name": "com.example.zeta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936851715045-d176rspbojmk16ntfpu2ld8imqk98d0h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrGJCG6nxfRIuuj8aTQI-oMobMUNa0wEQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936851715045-d176rspbojmk16ntfpu2ld8imqk98d0h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
