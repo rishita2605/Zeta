@@ -194,5 +194,53 @@
     "Name of the Psychiatrist": "Dr. P.Ilavarasi",
     "Contact Number": 9940831889,
     "E-Mail Address": "p.ilavarasi1985@gmail.com"
-  }
+  },
+  {
+    "S.No": 29,
+    "Name of the District": "Bangalore",
+    "Name of the Psychiatrist": "Dr. P.Sivakumar",
+    "Contact Number": 9940888889,
+    "E-Mail Address": "p.sivakumari1985@gmail.com"
+  },
+  {
+    "S.No": 30,
+    "Name of the District": "Bangalore",
+    "Name of the Psychiatrist": "Dr. T Manoharan",
+    "Contact Number": 9945631889,
+    "E-Mail Address": "manoharan456@gmail.com"
+  },
+  {
+    "S.No": 31,
+    "Name of the District": "Mysore",
+    "Name of the Psychiatrist": "Dr. Parvathy Rajan",
+    "Contact Number": 8950831889,
+    "E-Mail Address": "parvathyrajan@gmail.com"
+  },
+  {
+    "S.No": 32,
+    "Name of the District": "Mysore",
+    "Name of the Psychiatrist": "Dr. Shobanna",
+    "Contact Number": 9940834786,
+    "E-Mail Address": "shobana985@gmail.com"
+  },
+  {
+    "S.No": 33,
+    "Name of the District": "Hassan",
+    "Name of the Psychiatrist": "Dr. Chinnaswamy",
+    "Contact Number": 9120831889,
+    "E-Mail Address": "chinnamudu@gmail.com"
+  },{
+  "S.No": 34,
+  "Name of the District": "Mangalore",
+  "Name of the Psychiatrist": "Dr. Rajeev Sajjan",
+  "Contact Number": 9946891389,
+  "E-Mail Address": "rajeevsajjan5@gmail.com"
+},{
+  "S.No": 35,
+  "Name of the District": "Bangalore",
+  "Name of the Psychiatrist": "Dr. Anshil Bhasu",
+  "Contact Number": 9940123478,
+  "E-Mail Address": "anshilbhasoo195@gmail.com"
+}
+
 ]

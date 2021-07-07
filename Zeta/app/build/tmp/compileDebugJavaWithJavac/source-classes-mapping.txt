@@ -12,8 +12,8 @@ com/example/zeta/Signup.java
  com.example.zeta.Signup
 com/example/zeta/BuildConfig.java
  com.example.zeta.BuildConfig
-com/example/zeta/MainActivity.java
- com.example.zeta.MainActivity
+com/example/zeta/OxygenCylinders.java
+ com.example.zeta.OxygenCylinders
 com/example/zeta/databinding/ActivitySignupBinding.java
  com.example.zeta.databinding.ActivitySignupBinding
 com/example/zeta/Location.java
@@ -34,5 +34,7 @@ com/example/zeta/Childcare.java
  com.example.zeta.Childcare
 com/example/zeta/databinding/ActivityLoginBinding.java
  com.example.zeta.databinding.ActivityLoginBinding
-com/example/zeta/OxygenCylinders.java
- com.example.zeta.OxygenCylinders
+com/example/zeta/MainActivity.java
+ com.example.zeta.MainActivity
+ com.example.zeta.MainActivity$1
+ com.example.zeta.MainActivity$2

@@ -18,6 +18,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Zeta" >
+        <activity android:name="com.example.zeta.Services" />
+        <activity android:name="com.example.zeta.Location" />
         <activity android:name="com.example.zeta.Login" />
         <activity android:name="com.example.zeta.Signup" />
         <activity android:name="com.example.zeta.MainActivity" >

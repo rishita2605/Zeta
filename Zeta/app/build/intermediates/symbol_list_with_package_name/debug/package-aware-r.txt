@@ -1672,6 +1672,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable childsupport
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1681,6 +1682,7 @@ drawable design_snackbar_background
 drawable gethelp
 drawable gradient
 drawable help
+drawable hospital
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -1701,6 +1703,7 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable mental
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -1723,10 +1726,13 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable oxygencylinder
+drawable pharmacy
 drawable rectangle
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable volunteer
 font reem_kufi
 id ALT
 id BOTTOM_END
@@ -1818,8 +1824,6 @@ id bottom
 id bounce
 id button
 id button2
-id button3
-id button4
 id button5
 id buttonPanel
 id cache_measures
@@ -1835,6 +1839,7 @@ id checkBox6
 id checkBox7
 id checkbox
 id checked
+id childcare_submit_button
 id chip
 id chip1
 id chip2
@@ -1926,6 +1931,7 @@ id grouping
 id groups
 id guideline
 id header_title
+id helpbtn
 id hideable
 id home
 id homeAsUp
@@ -1937,9 +1943,15 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView10
 id imageView2
 id imageView3
 id imageView4
+id imageView5
+id imageView6
+id imageView7
+id imageView8
+id imageView9
 id info
 id invisible
 id inward
@@ -2015,6 +2027,7 @@ id multiply
 id nav_controller_view_tag
 id nav_host_fragment_container
 id navigation_header_container
+id needhelpbtn
 id never
 id noScroll
 id none
@@ -2138,7 +2151,18 @@ id textView
 id textView10
 id textView11
 id textView12
+id textView13
+id textView14
+id textView15
+id textView16
+id textView18
+id textView19
 id textView2
+id textView20
+id textView21
+id textView22
+id textView23
+id textView24
 id textView3
 id textView4
 id textView5

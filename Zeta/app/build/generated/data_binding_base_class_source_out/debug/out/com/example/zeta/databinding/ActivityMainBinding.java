@@ -21,10 +21,7 @@ public final class ActivityMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button button3;
-
-  @NonNull
-  public final Button button4;
+  public final Button helpbtn;
 
   @NonNull
   public final ImageView imageView2;
@@ -33,19 +30,22 @@ public final class ActivityMainBinding implements ViewBinding {
   public final ImageView imageView3;
 
   @NonNull
+  public final Button needhelpbtn;
+
+  @NonNull
   public final TextView textView4;
 
   @NonNull
   public final TextView textView5;
 
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button button3,
-      @NonNull Button button4, @NonNull ImageView imageView2, @NonNull ImageView imageView3,
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button helpbtn,
+      @NonNull ImageView imageView2, @NonNull ImageView imageView3, @NonNull Button needhelpbtn,
       @NonNull TextView textView4, @NonNull TextView textView5) {
     this.rootView = rootView;
-    this.button3 = button3;
-    this.button4 = button4;
+    this.helpbtn = helpbtn;
     this.imageView2 = imageView2;
     this.imageView3 = imageView3;
+    this.needhelpbtn = needhelpbtn;
     this.textView4 = textView4;
     this.textView5 = textView5;
   }
@@ -77,15 +77,9 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.button3;
-      Button button3 = rootView.findViewById(id);
-      if (button3 == null) {
-        break missingId;
-      }
-
-      id = R.id.button4;
-      Button button4 = rootView.findViewById(id);
-      if (button4 == null) {
+      id = R.id.helpbtn;
+      Button helpbtn = rootView.findViewById(id);
+      if (helpbtn == null) {
         break missingId;
       }
 
@@ -101,6 +95,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.needhelpbtn;
+      Button needhelpbtn = rootView.findViewById(id);
+      if (needhelpbtn == null) {
+        break missingId;
+      }
+
       id = R.id.textView4;
       TextView textView4 = rootView.findViewById(id);
       if (textView4 == null) {
@@ -113,8 +113,8 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, button3, button4, imageView2,
-          imageView3, textView4, textView5);
+      return new ActivityMainBinding((ConstraintLayout) rootView, helpbtn, imageView2, imageView3,
+          needhelpbtn, textView4, textView5);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
