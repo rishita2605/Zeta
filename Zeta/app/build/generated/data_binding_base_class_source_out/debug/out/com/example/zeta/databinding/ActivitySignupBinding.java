@@ -22,34 +22,37 @@ public final class ActivitySignupBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button button;
+  public final CheckBox bloodchk;
 
   @NonNull
-  public final CheckBox checkBox4;
+  public final EditText email;
 
   @NonNull
-  public final CheckBox checkBox5;
+  public final CheckBox financialchk;
 
   @NonNull
-  public final CheckBox checkBox6;
+  public final CheckBox foodchk;
 
   @NonNull
-  public final CheckBox checkBox7;
+  public final EditText location;
 
   @NonNull
-  public final EditText editTextTextPersonName;
+  public final EditText name;
 
   @NonNull
-  public final EditText editTextTextPersonName2;
+  public final CheckBox oxygenchk;
 
   @NonNull
-  public final EditText editTextTextPersonName3;
+  public final EditText password;
 
   @NonNull
-  public final EditText editTextTextPersonName4;
+  public final EditText phone;
 
   @NonNull
-  public final EditText editTextTextPersonName8;
+  public final Button signupbtn;
+
+  @NonNull
+  public final TextView sloginbtn;
 
   @NonNull
   public final TextView textView;
@@ -67,39 +70,35 @@ public final class ActivitySignupBinding implements ViewBinding {
   public final TextView textView17;
 
   @NonNull
-  public final TextView textView6;
-
-  @NonNull
   public final TextView textView8;
 
   @NonNull
   public final TextView textView9;
 
-  private ActivitySignupBinding(@NonNull ConstraintLayout rootView, @NonNull Button button,
-      @NonNull CheckBox checkBox4, @NonNull CheckBox checkBox5, @NonNull CheckBox checkBox6,
-      @NonNull CheckBox checkBox7, @NonNull EditText editTextTextPersonName,
-      @NonNull EditText editTextTextPersonName2, @NonNull EditText editTextTextPersonName3,
-      @NonNull EditText editTextTextPersonName4, @NonNull EditText editTextTextPersonName8,
-      @NonNull TextView textView, @NonNull TextView textView10, @NonNull TextView textView11,
-      @NonNull TextView textView12, @NonNull TextView textView17, @NonNull TextView textView6,
+  private ActivitySignupBinding(@NonNull ConstraintLayout rootView, @NonNull CheckBox bloodchk,
+      @NonNull EditText email, @NonNull CheckBox financialchk, @NonNull CheckBox foodchk,
+      @NonNull EditText location, @NonNull EditText name, @NonNull CheckBox oxygenchk,
+      @NonNull EditText password, @NonNull EditText phone, @NonNull Button signupbtn,
+      @NonNull TextView sloginbtn, @NonNull TextView textView, @NonNull TextView textView10,
+      @NonNull TextView textView11, @NonNull TextView textView12, @NonNull TextView textView17,
       @NonNull TextView textView8, @NonNull TextView textView9) {
     this.rootView = rootView;
-    this.button = button;
-    this.checkBox4 = checkBox4;
-    this.checkBox5 = checkBox5;
-    this.checkBox6 = checkBox6;
-    this.checkBox7 = checkBox7;
-    this.editTextTextPersonName = editTextTextPersonName;
-    this.editTextTextPersonName2 = editTextTextPersonName2;
-    this.editTextTextPersonName3 = editTextTextPersonName3;
-    this.editTextTextPersonName4 = editTextTextPersonName4;
-    this.editTextTextPersonName8 = editTextTextPersonName8;
+    this.bloodchk = bloodchk;
+    this.email = email;
+    this.financialchk = financialchk;
+    this.foodchk = foodchk;
+    this.location = location;
+    this.name = name;
+    this.oxygenchk = oxygenchk;
+    this.password = password;
+    this.phone = phone;
+    this.signupbtn = signupbtn;
+    this.sloginbtn = sloginbtn;
     this.textView = textView;
     this.textView10 = textView10;
     this.textView11 = textView11;
     this.textView12 = textView12;
     this.textView17 = textView17;
-    this.textView6 = textView6;
     this.textView8 = textView8;
     this.textView9 = textView9;
   }
@@ -131,63 +130,69 @@ public final class ActivitySignupBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.button;
-      Button button = rootView.findViewById(id);
-      if (button == null) {
+      id = R.id.bloodchk;
+      CheckBox bloodchk = rootView.findViewById(id);
+      if (bloodchk == null) {
         break missingId;
       }
 
-      id = R.id.checkBox4;
-      CheckBox checkBox4 = rootView.findViewById(id);
-      if (checkBox4 == null) {
+      id = R.id.email;
+      EditText email = rootView.findViewById(id);
+      if (email == null) {
         break missingId;
       }
 
-      id = R.id.checkBox5;
-      CheckBox checkBox5 = rootView.findViewById(id);
-      if (checkBox5 == null) {
+      id = R.id.financialchk;
+      CheckBox financialchk = rootView.findViewById(id);
+      if (financialchk == null) {
         break missingId;
       }
 
-      id = R.id.checkBox6;
-      CheckBox checkBox6 = rootView.findViewById(id);
-      if (checkBox6 == null) {
+      id = R.id.foodchk;
+      CheckBox foodchk = rootView.findViewById(id);
+      if (foodchk == null) {
         break missingId;
       }
 
-      id = R.id.checkBox7;
-      CheckBox checkBox7 = rootView.findViewById(id);
-      if (checkBox7 == null) {
+      id = R.id.location;
+      EditText location = rootView.findViewById(id);
+      if (location == null) {
         break missingId;
       }
 
-      id = R.id.editTextTextPersonName;
-      EditText editTextTextPersonName = rootView.findViewById(id);
-      if (editTextTextPersonName == null) {
+      id = R.id.name;
+      EditText name = rootView.findViewById(id);
+      if (name == null) {
         break missingId;
       }
 
-      id = R.id.editTextTextPersonName2;
-      EditText editTextTextPersonName2 = rootView.findViewById(id);
-      if (editTextTextPersonName2 == null) {
+      id = R.id.oxygenchk;
+      CheckBox oxygenchk = rootView.findViewById(id);
+      if (oxygenchk == null) {
         break missingId;
       }
 
-      id = R.id.editTextTextPersonName3;
-      EditText editTextTextPersonName3 = rootView.findViewById(id);
-      if (editTextTextPersonName3 == null) {
+      id = R.id.password;
+      EditText password = rootView.findViewById(id);
+      if (password == null) {
         break missingId;
       }
 
-      id = R.id.editTextTextPersonName4;
-      EditText editTextTextPersonName4 = rootView.findViewById(id);
-      if (editTextTextPersonName4 == null) {
+      id = R.id.phone;
+      EditText phone = rootView.findViewById(id);
+      if (phone == null) {
         break missingId;
       }
 
-      id = R.id.editTextTextPersonName8;
-      EditText editTextTextPersonName8 = rootView.findViewById(id);
-      if (editTextTextPersonName8 == null) {
+      id = R.id.signupbtn;
+      Button signupbtn = rootView.findViewById(id);
+      if (signupbtn == null) {
+        break missingId;
+      }
+
+      id = R.id.sloginbtn;
+      TextView sloginbtn = rootView.findViewById(id);
+      if (sloginbtn == null) {
         break missingId;
       }
 
@@ -221,12 +226,6 @@ public final class ActivitySignupBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView6;
-      TextView textView6 = rootView.findViewById(id);
-      if (textView6 == null) {
-        break missingId;
-      }
-
       id = R.id.textView8;
       TextView textView8 = rootView.findViewById(id);
       if (textView8 == null) {
@@ -239,10 +238,9 @@ public final class ActivitySignupBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivitySignupBinding((ConstraintLayout) rootView, button, checkBox4, checkBox5,
-          checkBox6, checkBox7, editTextTextPersonName, editTextTextPersonName2,
-          editTextTextPersonName3, editTextTextPersonName4, editTextTextPersonName8, textView,
-          textView10, textView11, textView12, textView17, textView6, textView8, textView9);
+      return new ActivitySignupBinding((ConstraintLayout) rootView, bloodchk, email, financialchk,
+          foodchk, location, name, oxygenchk, password, phone, signupbtn, sloginbtn, textView,
+          textView10, textView11, textView12, textView17, textView8, textView9);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
