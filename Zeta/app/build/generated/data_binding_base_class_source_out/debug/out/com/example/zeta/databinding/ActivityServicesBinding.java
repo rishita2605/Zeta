@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -18,6 +19,12 @@ import java.lang.String;
 public final class ActivityServicesBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
+
+  @NonNull
+  public final LinearLayout bedvac;
+
+  @NonNull
+  public final LinearLayout chis;
 
   @NonNull
   public final ImageView imageView10;
@@ -36,6 +43,15 @@ public final class ActivityServicesBinding implements ViewBinding {
 
   @NonNull
   public final ImageView imageView9;
+
+  @NonNull
+  public final LinearLayout menh;
+
+  @NonNull
+  public final LinearLayout oxycyl;
+
+  @NonNull
+  public final LinearLayout pharm;
 
   @NonNull
   public final TextView textView13;
@@ -70,20 +86,26 @@ public final class ActivityServicesBinding implements ViewBinding {
   @NonNull
   public final TextView textView24;
 
-  private ActivityServicesBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageView imageView10, @NonNull ImageView imageView5, @NonNull ImageView imageView6,
-      @NonNull ImageView imageView7, @NonNull ImageView imageView8, @NonNull ImageView imageView9,
-      @NonNull TextView textView13, @NonNull TextView textView14, @NonNull TextView textView15,
-      @NonNull TextView textView16, @NonNull TextView textView18, @NonNull TextView textView19,
-      @NonNull TextView textView20, @NonNull TextView textView21, @NonNull TextView textView22,
-      @NonNull TextView textView23, @NonNull TextView textView24) {
+  private ActivityServicesBinding(@NonNull ConstraintLayout rootView, @NonNull LinearLayout bedvac,
+      @NonNull LinearLayout chis, @NonNull ImageView imageView10, @NonNull ImageView imageView5,
+      @NonNull ImageView imageView6, @NonNull ImageView imageView7, @NonNull ImageView imageView8,
+      @NonNull ImageView imageView9, @NonNull LinearLayout menh, @NonNull LinearLayout oxycyl,
+      @NonNull LinearLayout pharm, @NonNull TextView textView13, @NonNull TextView textView14,
+      @NonNull TextView textView15, @NonNull TextView textView16, @NonNull TextView textView18,
+      @NonNull TextView textView19, @NonNull TextView textView20, @NonNull TextView textView21,
+      @NonNull TextView textView22, @NonNull TextView textView23, @NonNull TextView textView24) {
     this.rootView = rootView;
+    this.bedvac = bedvac;
+    this.chis = chis;
     this.imageView10 = imageView10;
     this.imageView5 = imageView5;
     this.imageView6 = imageView6;
     this.imageView7 = imageView7;
     this.imageView8 = imageView8;
     this.imageView9 = imageView9;
+    this.menh = menh;
+    this.oxycyl = oxycyl;
+    this.pharm = pharm;
     this.textView13 = textView13;
     this.textView14 = textView14;
     this.textView15 = textView15;
@@ -124,6 +146,18 @@ public final class ActivityServicesBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.bedvac;
+      LinearLayout bedvac = rootView.findViewById(id);
+      if (bedvac == null) {
+        break missingId;
+      }
+
+      id = R.id.chis;
+      LinearLayout chis = rootView.findViewById(id);
+      if (chis == null) {
+        break missingId;
+      }
+
       id = R.id.imageView10;
       ImageView imageView10 = rootView.findViewById(id);
       if (imageView10 == null) {
@@ -157,6 +191,24 @@ public final class ActivityServicesBinding implements ViewBinding {
       id = R.id.imageView9;
       ImageView imageView9 = rootView.findViewById(id);
       if (imageView9 == null) {
+        break missingId;
+      }
+
+      id = R.id.menh;
+      LinearLayout menh = rootView.findViewById(id);
+      if (menh == null) {
+        break missingId;
+      }
+
+      id = R.id.oxycyl;
+      LinearLayout oxycyl = rootView.findViewById(id);
+      if (oxycyl == null) {
+        break missingId;
+      }
+
+      id = R.id.pharm;
+      LinearLayout pharm = rootView.findViewById(id);
+      if (pharm == null) {
         break missingId;
       }
 
@@ -226,10 +278,10 @@ public final class ActivityServicesBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityServicesBinding((ConstraintLayout) rootView, imageView10, imageView5,
-          imageView6, imageView7, imageView8, imageView9, textView13, textView14, textView15,
-          textView16, textView18, textView19, textView20, textView21, textView22, textView23,
-          textView24);
+      return new ActivityServicesBinding((ConstraintLayout) rootView, bedvac, chis, imageView10,
+          imageView5, imageView6, imageView7, imageView8, imageView9, menh, oxycyl, pharm,
+          textView13, textView14, textView15, textView16, textView18, textView19, textView20,
+          textView21, textView22, textView23, textView24);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
