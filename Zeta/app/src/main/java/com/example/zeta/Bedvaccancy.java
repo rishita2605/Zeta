@@ -26,7 +26,7 @@ public class Bedvaccancy extends AppCompatActivity {
     {
         try
         {
-            InputStream inputStream=getAssets().open("childcare.json");
+            InputStream inputStream=getAssets().open("bedvaccancy.json");
             int size= inputStream.available();
             byte[] data=new byte[size];
             inputStream.read(data);

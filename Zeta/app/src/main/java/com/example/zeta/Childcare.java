@@ -44,10 +44,10 @@ public class Childcare extends AppCompatActivity {
 
                 if(jsonObject.getString("City").equals(""))
                     addresslist.add(jsonObject.getString("Address"));
-                namelist.add(jsonObject.getString("Address"));
-                phonelist.add(jsonObject.getString("Address"));
-                pincodelist.add(jsonObject.getString("Address"));
-                emaillist.add(jsonObject.getString("Address"));
+                namelist.add(jsonObject.getString("Name"));
+                phonelist.add(jsonObject.getString("Ph no"));
+                pincodelist.add(jsonObject.getString("Pincode"));
+                emaillist.add(jsonObject.getString("Email"));
 
             }
 
