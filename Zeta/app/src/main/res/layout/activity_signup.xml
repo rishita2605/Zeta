@@ -40,6 +40,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:layout_marginStart="20sp"
+            android:layout_marginLeft="20sp"
             android:layout_marginTop="60sp"
             android:layout_marginEnd="10sp"
             android:layout_marginRight="10sp"
@@ -51,7 +53,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:fontFamily="@font/reem_kufi"
-                android:gravity="center"
+                android:gravity="center_horizontal|left|center_vertical"
                 android:text="Name:"
                 android:textColor="#000000"
                 android:textSize="20sp" />
@@ -69,6 +71,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:layout_marginStart="20sp"
+            android:layout_marginLeft="20sp"
             android:layout_marginEnd="10sp"
             android:layout_marginRight="10sp"
             android:orientation="horizontal">
@@ -79,7 +83,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:fontFamily="@font/reem_kufi"
-                android:gravity="center"
+                android:gravity="center_horizontal|left|center_vertical"
                 android:text="Location:"
                 android:textColor="#000000"
                 android:textSize="20sp" />
@@ -97,6 +101,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:layout_marginStart="20sp"
+            android:layout_marginLeft="20sp"
             android:layout_marginEnd="10sp"
             android:layout_marginRight="10sp"
             android:orientation="horizontal">
@@ -107,7 +113,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:fontFamily="@font/reem_kufi"
-                android:gravity="center"
+                android:gravity="center_horizontal|left|center_vertical"
                 android:text="Email-ID:"
                 android:textColor="#000000"
                 android:textSize="20sp" />
@@ -125,6 +131,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:layout_marginStart="20sp"
+            android:layout_marginLeft="20sp"
             android:layout_marginEnd="10sp"
             android:layout_marginRight="10sp"
             android:orientation="horizontal">
@@ -135,7 +143,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:fontFamily="@font/reem_kufi"
-                android:gravity="center"
+                android:gravity="center_horizontal|left|center_vertical"
                 android:text="Password:"
                 android:textColor="#000000"
                 android:textSize="20sp" />
