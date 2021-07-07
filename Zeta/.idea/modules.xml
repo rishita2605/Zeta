@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Zeta.iml" filepath="$PROJECT_DIR$/.idea/modules/Zeta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Zeta.iml" filepath="$PROJECT_DIR$/.idea/Zeta.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Zeta.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Zeta.app.iml" />
     </modules>
   </component>

@@ -47,14 +47,14 @@
                 <Button
                     android:id="@+id/button3"
                     android:layout_width="wrap_content"
-                    android:layout_height="12dp"
+                    android:layout_height="8dp"
                     android:layout_marginStart="15sp"
                     android:layout_marginLeft="15sp"
                     android:layout_marginBottom="15sp"
                     android:layout_weight="1"
                     android:fontFamily="@font/reem_kufi"
                     android:text="N E E D   H E L P ?"
-                    android:textSize="12sp"
+                    android:textSize="11sp"
                     app:cornerRadius="40dp" />
 
             </LinearLayout>
