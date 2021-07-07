@@ -290,10 +290,7 @@
             android:fontFamily="@font/reem_kufi"
             android:text="S I G N   U P"
             android:textSize="16sp"
-            app:cornerRadius="40dp" /><![CDATA[
+            app:cornerRadius="40dp" />
 
-        />
-
-    ]]>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
