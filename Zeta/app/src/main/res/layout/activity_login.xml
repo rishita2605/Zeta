@@ -28,7 +28,7 @@
             android:textSize="24sp" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/lsignup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/reem_kufi"
@@ -36,7 +36,7 @@
             android:shadowColor="#000000"
             android:text="Or Sign Up here"
             android:textColor="#000000"
-            android:textSize="16sp" />
+            android:textSize="19sp" />
 
         <ImageView
             android:id="@+id/imageView"
@@ -66,7 +66,7 @@
                 android:textSize="20sp" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName5"
+                android:id="@+id/lemail"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -99,7 +99,7 @@
                 android:textSize="20sp" />
 
             <EditText
-                android:id="@+id/editTextTextPassword"
+                android:id="@+id/lpassword"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -111,7 +111,7 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/loginbtn"
             android:layout_width="125sp"
             android:layout_height="60sp"
             android:layout_marginStart="240sp"
