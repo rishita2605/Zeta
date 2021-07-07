@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_second.xml",
+        "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_bedvaccancy.xml",
+        "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\layout\\activity_bedvaccancy.xml"
+    },
+    {
+        "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_oxygen_cylinders.xml",
+        "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\layout\\content_oxygen_cylinders.xml"
+    },
+    {
+        "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_childcare.xml",
+        "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\layout\\activity_childcare.xml"
+    },
+    {
+        "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_oxygen_cylinders.xml",
+        "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\layout\\activity_oxygen_cylinders.xml"
+    },
+    {
+        "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_signup.xml",
+        "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_mental_health.xml",
+        "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\layout\\activity_mental_health.xml"
+    },
+    {
+        "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_first.xml",
+        "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\layout\\fragment_first.xml"
+    }
+]
