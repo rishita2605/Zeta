@@ -16,8 +16,13 @@ public final class ActivityChildcareBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
 
-  private ActivityChildcareBinding(@NonNull ConstraintLayout rootView) {
+  @NonNull
+  public final ConstraintLayout childcareSubmitButton;
+
+  private ActivityChildcareBinding(@NonNull ConstraintLayout rootView,
+      @NonNull ConstraintLayout childcareSubmitButton) {
     this.rootView = rootView;
+    this.childcareSubmitButton = childcareSubmitButton;
   }
 
   @Override
@@ -47,6 +52,8 @@ public final class ActivityChildcareBinding implements ViewBinding {
       throw new NullPointerException("rootView");
     }
 
-    return new ActivityChildcareBinding((ConstraintLayout) rootView);
+    ConstraintLayout childcareSubmitButton = (ConstraintLayout) rootView;
+
+    return new ActivityChildcareBinding((ConstraintLayout) rootView, childcareSubmitButton);
   }
 }

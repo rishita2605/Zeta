@@ -1,9 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_first.xml.flat",
-        "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\layout\\fragment_first.xml"
-    },
-    {
         "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
@@ -14,6 +10,10 @@
     {
         "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mental.png.flat",
+        "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\drawable\\mental.png"
     },
     {
         "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
@@ -40,8 +40,16 @@
         "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\font\\reem_kufi.xml"
     },
     {
+        "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mapdude.png.flat",
+        "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\drawable\\mapdude.png"
+    },
+    {
         "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gethelp.png.flat",
         "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\drawable\\gethelp.png"
+    },
+    {
+        "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hospital.png.flat",
+        "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\drawable\\hospital.png"
     },
     {
         "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -52,6 +60,14 @@
         "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\layout\\activity_mental_health.xml"
     },
     {
+        "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_services.xml.flat",
+        "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\layout\\activity_services.xml"
+    },
+    {
+        "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\res\\merged\\debug\\drawable_childsupport.png.flat",
+        "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\drawable\\childsupport.png"
+    },
+    {
         "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
@@ -60,12 +76,24 @@
         "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\res\\merged\\debug\\drawable_volunteer.png.flat",
+        "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\drawable\\volunteer.png"
+    },
+    {
+        "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_location.xml.flat",
+        "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\layout\\activity_location.xml"
+    },
+    {
         "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_signup.xml.flat",
         "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\layout\\activity_signup.xml"
     },
     {
         "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\res\\merged\\debug\\drawable_oxygencylinder.png.flat",
+        "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\drawable\\oxygencylinder.png"
     },
     {
         "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\res\\merged\\debug\\drawable_loginillustration.png.flat",
@@ -108,10 +136,6 @@
         "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_oxygen_cylinders.xml.flat",
-        "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\layout\\content_oxygen_cylinders.xml"
-    },
-    {
         "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
@@ -128,10 +152,6 @@
         "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_second.xml.flat",
-        "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\layout\\fragment_second.xml"
-    },
-    {
         "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
         "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
     },
@@ -140,8 +160,8 @@
         "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\drawable\\rectangle.xml"
     },
     {
-        "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_graph.xml.flat",
-        "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\navigation\\nav_graph.xml"
+        "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pharmacy.png.flat",
+        "source": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\drawable\\pharmacy.png"
     },
     {
         "merged": "C:\\Users\\abhis\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_oxygen_cylinders.xml.flat",
