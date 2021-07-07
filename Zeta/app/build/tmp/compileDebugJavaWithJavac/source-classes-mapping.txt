@@ -1,14 +1,13 @@
-com/example/zeta/databinding/ActivityBedvaccancyBinding.java
- com.example.zeta.databinding.ActivityBedvaccancyBinding
-com/example/zeta/databinding/ActivityChildcareBinding.java
- com.example.zeta.databinding.ActivityChildcareBinding
 com/example/zeta/databinding/ActivityOxygenCylindersBinding.java
  com.example.zeta.databinding.ActivityOxygenCylindersBinding
+com/example/zeta/databinding/ActivityBedvaccancyBinding.java
+ com.example.zeta.databinding.ActivityBedvaccancyBinding
+com/example/zeta/databinding/ActivityLocationBinding.java
+ com.example.zeta.databinding.ActivityLocationBinding
+com/example/zeta/databinding/ActivityChildcareBinding.java
+ com.example.zeta.databinding.ActivityChildcareBinding
 com/example/zeta/Bedvaccancy.java
  com.example.zeta.Bedvaccancy
-com/example/zeta/FirstFragment.java
- com.example.zeta.FirstFragment
- com.example.zeta.FirstFragment$1
 com/example/zeta/Signup.java
  com.example.zeta.Signup
 com/example/zeta/BuildConfig.java
@@ -17,25 +16,22 @@ com/example/zeta/MainActivity.java
  com.example.zeta.MainActivity
 com/example/zeta/databinding/ActivitySignupBinding.java
  com.example.zeta.databinding.ActivitySignupBinding
-com/example/zeta/databinding/FragmentSecondBinding.java
- com.example.zeta.databinding.FragmentSecondBinding
+com/example/zeta/Location.java
+ com.example.zeta.Location
+com/example/zeta/Services.java
+ com.example.zeta.Services
 com/example/zeta/databinding/ActivityMainBinding.java
  com.example.zeta.databinding.ActivityMainBinding
 com/example/zeta/Login.java
  com.example.zeta.Login
 com/example/zeta/MentalHealth.java
  com.example.zeta.MentalHealth
-com/example/zeta/SecondFragment.java
- com.example.zeta.SecondFragment
- com.example.zeta.SecondFragment$1
 com/example/zeta/databinding/ActivityMentalHealthBinding.java
  com.example.zeta.databinding.ActivityMentalHealthBinding
-com/example/zeta/databinding/FragmentFirstBinding.java
- com.example.zeta.databinding.FragmentFirstBinding
+com/example/zeta/databinding/ActivityServicesBinding.java
+ com.example.zeta.databinding.ActivityServicesBinding
 com/example/zeta/Childcare.java
  com.example.zeta.Childcare
-com/example/zeta/databinding/ContentOxygenCylindersBinding.java
- com.example.zeta.databinding.ContentOxygenCylindersBinding
 com/example/zeta/databinding/ActivityLoginBinding.java
  com.example.zeta.databinding.ActivityLoginBinding
 com/example/zeta/OxygenCylinders.java

@@ -1690,6 +1690,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable loginillustration
+drawable mapdude
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1732,7 +1733,6 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
-id FirstFragment
 id META
 id NO_DEBUG
 id SHIFT
@@ -1740,7 +1740,6 @@ id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
-id SecondFragment
 id TOP_END
 id TOP_START
 id accelerate
@@ -1777,8 +1776,6 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
-id action_FirstFragment_to_SecondFragment
-id action_SecondFragment_to_FirstFragment
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -1799,6 +1796,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id agency_name
 id alertTitle
 id aligned
 id all
@@ -1822,9 +1820,8 @@ id button
 id button2
 id button3
 id button4
+id button5
 id buttonPanel
-id button_first
-id button_second
 id cache_measures
 id cancel_button
 id center
@@ -1845,12 +1842,14 @@ id chip3
 id chip_group
 id chronometer
 id circle_center
+id city
 id clear_text
 id clip_horizontal
 id clip_vertical
 id clockwise
 id collapseActionView
 id confirm_button
+id contact_number
 id container
 id content
 id contentPanel
@@ -1896,6 +1895,7 @@ id editTextTextPersonName3
 id editTextTextPersonName4
 id editTextTextPersonName5
 id editTextTextPersonName6
+id editTextTextPersonName7
 id edit_query
 id elastic
 id end
@@ -1905,7 +1905,6 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
-id fab
 id fade
 id fill
 id fill_horizontal
@@ -1940,6 +1939,7 @@ id image
 id imageView
 id imageView2
 id imageView3
+id imageView4
 id info
 id invisible
 id inward
@@ -2013,9 +2013,7 @@ id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
 id nav_controller_view_tag
-id nav_graph
 id nav_host_fragment_container
-id nav_host_fragment_content_oxygen_cylinders
 id navigation_header_container
 id never
 id noScroll
@@ -2039,6 +2037,7 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id person_name
 id pin
 id position
 id postLayout
@@ -2156,14 +2155,11 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
-id textview_first
-id textview_second
 id time
 id title
 id titleDividerNoCustom
 id title_template
 id toggle
-id toolbar
 id top
 id topPanel
 id touch_outside
@@ -2254,12 +2250,13 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_bedvaccancy
 layout activity_childcare
+layout activity_location
 layout activity_login
 layout activity_main
 layout activity_mental_health
 layout activity_oxygen_cylinders
+layout activity_services
 layout activity_signup
-layout content_oxygen_cylinders
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2276,8 +2273,6 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
-layout fragment_first
-layout fragment_second
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -2346,7 +2341,6 @@ layout text_view_with_theme_line_height
 layout text_view_without_line_height
 mipmap ic_launcher
 mipmap ic_launcher_round
-navigation nav_graph
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description
