@@ -38,6 +38,7 @@
             android:orientation="horizontal">
 
             <LinearLayout
+                android:id="@+id/oxycyl"
                 android:layout_width="150sp"
                 android:layout_height="match_parent"
                 android:background="@drawable/rectangle"
@@ -73,6 +74,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/bedvac"
                 android:layout_width="150sp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="45sp"
@@ -112,6 +114,7 @@
             android:orientation="horizontal">
 
             <LinearLayout
+                android:id="@+id/pharm"
                 android:layout_width="150sp"
                 android:layout_height="match_parent"
                 android:background="@drawable/rectangle"
@@ -185,6 +188,7 @@
             android:orientation="horizontal">
 
             <LinearLayout
+                android:id="@+id/menh"
                 android:layout_width="150sp"
                 android:layout_height="match_parent"
                 android:background="@drawable/rectangle"
@@ -220,6 +224,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/chis"
                 android:layout_width="150sp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="45sp"

@@ -1817,6 +1817,7 @@ id autoCompleteToEnd
 id autoCompleteToStart
 id barrier
 id baseline
+id bedvac
 id beginOnFirstDraw
 id beginning
 id blocking
@@ -1845,6 +1846,7 @@ id chip1
 id chip2
 id chip3
 id chip_group
+id chis
 id chronometer
 id circle_center
 id city
@@ -1894,13 +1896,13 @@ id dropdown_menu
 id easeIn
 id easeInOut
 id easeOut
+id editTextTextPassword
 id editTextTextPersonName
 id editTextTextPersonName2
 id editTextTextPersonName3
 id editTextTextPersonName4
 id editTextTextPersonName5
-id editTextTextPersonName6
-id editTextTextPersonName7
+id editTextTextPersonName8
 id edit_query
 id elastic
 id end
@@ -1970,6 +1972,7 @@ id line3
 id linear
 id listMode
 id list_item
+id loc
 id masked
 id material_clock_display
 id material_clock_face
@@ -1990,6 +1993,7 @@ id material_timepicker_mode_button
 id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
+id menh
 id message
 id middle
 id mini
@@ -2039,6 +2043,7 @@ id off
 id on
 id outline
 id outward
+id oxycyl
 id packed
 id parallax
 id parent
@@ -2051,6 +2056,7 @@ id pathRelative
 id peekHeight
 id percent
 id person_name
+id pharm
 id pin
 id position
 id postLayout
@@ -2155,6 +2161,7 @@ id textView13
 id textView14
 id textView15
 id textView16
+id textView17
 id textView18
 id textView19
 id textView2
