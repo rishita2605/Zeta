@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         helpbtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Bundle bundle = new Bundle();
-                Toast.makeText(getBaseContext(), "Success", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getBaseContext(), "Success", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(MainActivity.this, Signup.class);
                 intent.putExtras(bundle);
                 startActivity(intent);
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         needhelpbtn.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 Bundle bundle=new Bundle();
-                Toast.makeText(getBaseContext(), "Success", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getBaseContext(), "Success", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(MainActivity.this, Services.class);
                 intent.putExtras(bundle);
                 startActivity(intent);
