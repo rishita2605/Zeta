@@ -48,7 +48,7 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/childchangeloc"
+            android:id="@+id/bvchildchangeloc"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:layout_gravity="center"

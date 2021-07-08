@@ -20,7 +20,7 @@ public final class ActivityMentalHealthBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button childchangeloc;
+  public final Button bvchildchangeloc;
 
   @NonNull
   public final TextView childlocfield;
@@ -32,10 +32,10 @@ public final class ActivityMentalHealthBinding implements ViewBinding {
   public final TextView textView26;
 
   private ActivityMentalHealthBinding(@NonNull ConstraintLayout rootView,
-      @NonNull Button childchangeloc, @NonNull TextView childlocfield, @NonNull TextView childout,
+      @NonNull Button bvchildchangeloc, @NonNull TextView childlocfield, @NonNull TextView childout,
       @NonNull TextView textView26) {
     this.rootView = rootView;
-    this.childchangeloc = childchangeloc;
+    this.bvchildchangeloc = bvchildchangeloc;
     this.childlocfield = childlocfield;
     this.childout = childout;
     this.textView26 = textView26;
@@ -68,9 +68,9 @@ public final class ActivityMentalHealthBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.childchangeloc;
-      Button childchangeloc = rootView.findViewById(id);
-      if (childchangeloc == null) {
+      id = R.id.bvchildchangeloc;
+      Button bvchildchangeloc = rootView.findViewById(id);
+      if (bvchildchangeloc == null) {
         break missingId;
       }
 
@@ -92,7 +92,7 @@ public final class ActivityMentalHealthBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMentalHealthBinding((ConstraintLayout) rootView, childchangeloc,
+      return new ActivityMentalHealthBinding((ConstraintLayout) rootView, bvchildchangeloc,
           childlocfield, childout, textView26);
     }
     String missingId = rootView.getResources().getResourceName(id);

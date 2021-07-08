@@ -4,6 +4,7 @@ package com.example.zeta.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -19,14 +20,23 @@ public final class ActivityBedvaccancyBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final TextView bvchildlocfield;
+
+  @NonNull
+  public final Button childchangeloc;
+
+  @NonNull
   public final TextView childout2;
 
   @NonNull
   public final TextView textView26;
 
   private ActivityBedvaccancyBinding(@NonNull ConstraintLayout rootView,
+      @NonNull TextView bvchildlocfield, @NonNull Button childchangeloc,
       @NonNull TextView childout2, @NonNull TextView textView26) {
     this.rootView = rootView;
+    this.bvchildlocfield = bvchildlocfield;
+    this.childchangeloc = childchangeloc;
     this.childout2 = childout2;
     this.textView26 = textView26;
   }
@@ -58,6 +68,18 @@ public final class ActivityBedvaccancyBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.bvchildlocfield;
+      TextView bvchildlocfield = rootView.findViewById(id);
+      if (bvchildlocfield == null) {
+        break missingId;
+      }
+
+      id = R.id.childchangeloc;
+      Button childchangeloc = rootView.findViewById(id);
+      if (childchangeloc == null) {
+        break missingId;
+      }
+
       id = R.id.childout2;
       TextView childout2 = rootView.findViewById(id);
       if (childout2 == null) {
@@ -70,7 +92,8 @@ public final class ActivityBedvaccancyBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityBedvaccancyBinding((ConstraintLayout) rootView, childout2, textView26);
+      return new ActivityBedvaccancyBinding((ConstraintLayout) rootView, bvchildlocfield,
+          childchangeloc, childout2, textView26);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

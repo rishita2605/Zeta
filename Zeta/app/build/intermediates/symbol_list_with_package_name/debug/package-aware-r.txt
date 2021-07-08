@@ -1883,6 +1883,8 @@ id browser_actions_menu_view
 id buttonPanel
 id button_first
 id button_second
+id bvchildchangeloc
+id bvchildlocfield
 id cache_measures
 id cancel_button
 id center
