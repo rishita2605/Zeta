@@ -28,19 +28,12 @@ public class Location extends AppCompatActivity {
     }
 
 
-    public void getlocation(View view) {
+    public String  getlocation() {
+
         locationstr = findViewById(R.id.loc);
-        Intent pc=new Intent(this, Childcare.class);
-        Intent pm=new Intent(this, MentalHealth.class);
-        Intent pb=new Intent(this, Bedvaccancy.class);
-        Intent po=new Intent(this, OxygenCylinders.class);
-        pc.putExtra("loc", String.valueOf(locationstr.getText()));
-        pb.putExtra("loc", String.valueOf(locationstr.getText()));
-        pm.putExtra("loc", String.valueOf(locationstr.getText()));
-        po.putExtra("loc", String.valueOf(locationstr.getText()));
-        startActivity(pc);
-        startActivity(pb);
-        startActivity(pm);
-        startActivity(po);
+        String loci=""+locationstr;
+        return loci;
+
+
     }
 }

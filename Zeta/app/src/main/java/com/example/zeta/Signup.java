@@ -103,7 +103,7 @@ public class Signup extends AppCompatActivity {
                                 public void onComplete(@NonNull Task<Void> task) {
                                     if(task.isSuccessful()){
                                         Toast.makeText(Signup.this, "Signed up successfully", Toast.LENGTH_SHORT).show();
-                                        startActivity(new Intent(getApplicationContext(),Location.class));
+                                        startActivity(new Intent(getApplicationContext(),SignupDestination.class));
                                     }
                                     else {
                                         Toast.makeText(Signup.this, "Error! "+task.getException().getMessage(), Toast.LENGTH_SHORT).show();

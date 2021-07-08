@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient"
-    tools:context=".Mentalhealth">
+    tools:context=".MentalHealth">
 
     <LinearLayout
         android:layout_width="409dp"
@@ -18,26 +17,15 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textView25"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="50sp"
-            android:fontFamily="@font/reem_kufi"
-            android:gravity="center"
-            android:text="Mental Heathcare Services"
-            android:textColor="#090808"
-            android:textSize="28sp" />
-
-        <TextView
             android:id="@+id/mentout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginTop="30sp"
             android:fontFamily="@font/reem_kufi"
             android:gravity="center"
             android:text="yo"
             android:textColor="#000000"
             android:textSize="20sp" />
-
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

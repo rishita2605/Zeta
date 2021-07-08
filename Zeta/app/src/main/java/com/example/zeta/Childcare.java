@@ -31,7 +31,9 @@ public class Childcare extends AppCompatActivity {
     public void parseJson()
     {   Bundle bundle=getIntent().getExtras();
         //String place=bundle.getString("loc");
-        String place="Panjim";
+       // String place="Panjim";
+        Location l=new Location();
+        String place=l.getlocation();
 
         try
         {
