@@ -52,7 +52,7 @@ public class OxygenCylinders extends AppCompatActivity {
             for(int i=0; i<jsonArray.length(); i++){
 
                 JSONObject obj = jsonArray.getJSONObject(i);
-                if(obj.getString("City")=="Bangalore"){
+                if(obj.getString("City")==place){
                     int Phone = obj.getInt("Phone number");
                     String Agency = obj.getString("Agency name");
                     String Name = obj.getString("Name");
