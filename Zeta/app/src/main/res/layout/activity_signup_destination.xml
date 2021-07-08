@@ -46,5 +46,12 @@
             android:text="Not all heroes wear capes."
             android:textColor="#000000"
             android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:onClick="logout"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
