@@ -16,21 +16,26 @@ public class Location extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_location);
         conti=findViewById(R.id.conti);
+        locationstr=findViewById(R.id.locationinput);
+
         conti.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Bundle bundle = new Bundle();
                 //Toast.makeText(getBaseContext(), "Success", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(Location.this, Services.class);
+                intent.putExtra("Location", locationstr.getText().toString());
                 intent.putExtras(bundle);
                 startActivity(intent);
             }
         });
+
+
     }
 
 
     public String  getlocation() {
 
-        locationstr = findViewById(R.id.loc);
+        locationstr = findViewById(R.id.locationinput);
         String loci=""+locationstr;
         return loci;
 

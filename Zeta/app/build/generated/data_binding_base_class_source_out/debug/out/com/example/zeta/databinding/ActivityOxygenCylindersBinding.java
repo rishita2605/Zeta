@@ -21,10 +21,14 @@ public final class ActivityOxygenCylindersBinding implements ViewBinding {
   @NonNull
   public final TextView out;
 
-  private ActivityOxygenCylindersBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView out) {
+  @NonNull
+  public final TextView textView26;
+
+  private ActivityOxygenCylindersBinding(@NonNull ConstraintLayout rootView, @NonNull TextView out,
+      @NonNull TextView textView26) {
     this.rootView = rootView;
     this.out = out;
+    this.textView26 = textView26;
   }
 
   @Override
@@ -60,7 +64,13 @@ public final class ActivityOxygenCylindersBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityOxygenCylindersBinding((ConstraintLayout) rootView, out);
+      id = R.id.textView26;
+      TextView textView26 = rootView.findViewById(id);
+      if (textView26 == null) {
+        break missingId;
+      }
+
+      return new ActivityOxygenCylindersBinding((ConstraintLayout) rootView, out, textView26);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

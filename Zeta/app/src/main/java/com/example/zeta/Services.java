@@ -24,6 +24,10 @@ public class Services extends AppCompatActivity {
         chis=(LinearLayout)findViewById(R.id.chis);
         bedvac=(LinearLayout)findViewById(R.id.bedvac);
 
+        Bundle b=getIntent().getExtras();
+        String loc=b.getString("Location");
+        //Toast.makeText(getBaseContext(), loc, Toast.LENGTH_SHORT).show();
+
         oxycyl.setOnClickListener(new View.OnClickListener(){
             public void onClick(View arg) {
                 openoc();
@@ -32,7 +36,7 @@ public class Services extends AppCompatActivity {
         });
         menh.setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg) {
-                Toast.makeText(getBaseContext(), "Success", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getBaseContext(), "Success", Toast.LENGTH_SHORT).show();
                 openmh();
             }
         });
@@ -72,9 +76,10 @@ public class Services extends AppCompatActivity {
     public void openmh()
     {
         //Toast.makeText(getBaseContext(), "Success", Toast.LENGTH_SHORT).show();
-        Bundle bundle = new Bundle();
-        Intent intent = new Intent(getApplicationContext(), MentalHealth.class);
-        intent.putExtras(bundle);
+        Bundle b=getIntent().getExtras();
+        String loc=b.getString("Location");
+        Intent intent = new Intent(Services.this, MentalHealth.class);
+        intent.putExtras(b);
         startActivity(intent);
     }
     public void openbv()

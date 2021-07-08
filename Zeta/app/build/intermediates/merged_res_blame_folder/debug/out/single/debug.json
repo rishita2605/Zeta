@@ -72,6 +72,10 @@
         "source": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/build/generated/res/pngs/debug/drawable-mdpi/ic_launcher_background.png"
     },
     {
+        "merged": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/build/intermediates/res/merged/debug/layout_activity_error.xml.flat",
+        "source": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/src/main/res/layout/activity_error.xml"
+    },
+    {
         "merged": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/build/intermediates/res/merged/debug/drawable_hospital.png.flat",
         "source": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/src/main/res/drawable/hospital.png"
     },
@@ -114,6 +118,10 @@
     {
         "merged": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/build/intermediates/res/merged/debug/drawable_gethelp.png.flat",
         "source": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/src/main/res/drawable/gethelp.png"
+    },
+    {
+        "merged": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/build/intermediates/res/merged/debug/drawable-v24_monster.png.flat",
+        "source": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/src/main/res/drawable-v24/monster.png"
     },
     {
         "merged": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",

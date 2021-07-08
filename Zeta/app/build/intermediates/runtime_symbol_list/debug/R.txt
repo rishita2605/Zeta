@@ -1748,6 +1748,7 @@ int drawable material_ic_menu_arrow_down_black_24dp 0x7f080092
 int drawable material_ic_menu_arrow_up_black_24dp 0x7f080093
 int drawable mental 0x7f080094
 int drawable mobilehandy 0x7f080095
+int drawable monster 0x7f0800b3
 int drawable mtrl_dialog_background 0x7f080096
 int drawable mtrl_dropdown_arrow 0x7f080097
 int drawable mtrl_ic_arrow_drop_down 0x7f080098
@@ -1882,6 +1883,7 @@ int id center_horizontal 0x7f0a0064
 int id center_vertical 0x7f0a0065
 int id chain 0x7f0a0066
 int id chains 0x7f0a0067
+int id changelocbtn 0x7f0a01f8
 int id checkbox 0x7f0a0068
 int id checked 0x7f0a0069
 int id childcare_submit_button 0x7f0a006a
@@ -1992,6 +1994,7 @@ int id imageView11 0x7f0a00d2
 int id imageView2 0x7f0a00d3
 int id imageView3 0x7f0a00d4
 int id imageView4 0x7f0a00d5
+int id imageView5 0x7f0a01f1
 int id imageView6 0x7f0a00d6
 int id imageView7 0x7f0a00d7
 int id imageView8 0x7f0a00d8
@@ -2016,8 +2019,10 @@ int id line3 0x7f0a00ea
 int id linear 0x7f0a00eb
 int id listMode 0x7f0a00ec
 int id list_item 0x7f0a00ed
-int id loc 0x7f0a00ee
 int id location 0x7f0a00ef
+int id locationbtn 0x7f0a01f2
+int id locationinput 0x7f0a01f5
+int id locfield 0x7f0a01f9
 int id loginbtn 0x7f0a00f0
 int id lpassword 0x7f0a00f1
 int id lsignup 0x7f0a00f2
@@ -2226,6 +2231,8 @@ int id textView21 0x7f0a01bc
 int id textView22 0x7f0a01bd
 int id textView23 0x7f0a01be
 int id textView24 0x7f0a01bf
+int id textView25 0x7f0a01f3
+int id textView26 0x7f0a01f4
 int id textView3 0x7f0a01c0
 int id textView4 0x7f0a01c1
 int id textView5 0x7f0a01c2
@@ -2339,6 +2346,7 @@ int layout abc_select_dialog_material 0x7f0d001a
 int layout abc_tooltip 0x7f0d001b
 int layout activity_bedvaccancy 0x7f0d001c
 int layout activity_childcare 0x7f0d001d
+int layout activity_error 0x7f0d007a
 int layout activity_location 0x7f0d001e
 int layout activity_login 0x7f0d001f
 int layout activity_main 0x7f0d0020
