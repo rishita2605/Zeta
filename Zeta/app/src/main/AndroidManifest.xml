@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.zeta">
 
-    <uses-permission android:name="android.permission.INTERNETTE"/>
+    <uses-permission android:name="android.permission.INTERNETTE" />
 
     <application
         android:allowBackup="true"
@@ -11,14 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Zeta">
-        <activity android:name=".Services"/>
+        <activity android:name=".Error"></activity>
+        <activity android:name=".Services" />
         <activity android:name=".Location" />
         <activity android:name=".Login" />
         <activity android:name=".Signup" />
-        <activity android:name=".Bedvaccancy"/>
-        <activity android:name=".Childcare"/>
-        <activity android:name=".OxygenCylinders"/>
-        <activity android:name=".MentalHealth"/>
+        <activity android:name=".Bedvaccancy" />
+        <activity android:name=".Childcare" />
+        <activity android:name=".OxygenCylinders" />
+        <activity android:name=".MentalHealth" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

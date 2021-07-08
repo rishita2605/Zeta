@@ -1,15 +1,18 @@
-com/example/zeta/databinding/ActivityBedvaccancyBinding.java
- com.example.zeta.databinding.ActivityBedvaccancyBinding
-com/example/zeta/databinding/ActivityChildcareBinding.java
- com.example.zeta.databinding.ActivityChildcareBinding
-com/example/zeta/databinding/ActivityLocationBinding.java
- com.example.zeta.databinding.ActivityLocationBinding
 com/example/zeta/databinding/ActivityOxygenCylindersBinding.java
  com.example.zeta.databinding.ActivityOxygenCylindersBinding
+com/example/zeta/databinding/ActivityBedvaccancyBinding.java
+ com.example.zeta.databinding.ActivityBedvaccancyBinding
+com/example/zeta/databinding/ActivityLocationBinding.java
+ com.example.zeta.databinding.ActivityLocationBinding
+com/example/zeta/databinding/ActivityChildcareBinding.java
+ com.example.zeta.databinding.ActivityChildcareBinding
 com/example/zeta/Bedvaccancy.java
  com.example.zeta.Bedvaccancy
-com/example/zeta/OxygenCylinders.java
- com.example.zeta.OxygenCylinders
+com/example/zeta/Signup.java
+ com.example.zeta.Signup
+ com.example.zeta.Signup$1
+ com.example.zeta.Signup$1$1
+ com.example.zeta.Signup$1$1$1
 com/example/zeta/BuildConfig.java
  com.example.zeta.BuildConfig
 com/example/zeta/databinding/ActivitySignupDestinationBinding.java
@@ -18,8 +21,10 @@ com/example/zeta/User.java
  com.example.zeta.User
 com/example/zeta/databinding/ActivitySignupBinding.java
  com.example.zeta.databinding.ActivitySignupBinding
-com/example/zeta/databinding/ActivityLoginBinding.java
- com.example.zeta.databinding.ActivityLoginBinding
+com/example/zeta/MainActivity.java
+ com.example.zeta.MainActivity
+ com.example.zeta.MainActivity$1
+ com.example.zeta.MainActivity$2
 com/example/zeta/databinding/ActivityServicesBinding.java
  com.example.zeta.databinding.ActivityServicesBinding
 com/example/zeta/databinding/ActivityMainBinding.java
@@ -32,15 +37,12 @@ com/example/zeta/MentalHealth.java
  com.example.zeta.MentalHealth
 com/example/zeta/databinding/ActivityMentalHealthBinding.java
  com.example.zeta.databinding.ActivityMentalHealthBinding
-com/example/zeta/Signup.java
- com.example.zeta.Signup
- com.example.zeta.Signup$1
- com.example.zeta.Signup$1$1
- com.example.zeta.Signup$1$1$1
-com/example/zeta/MainActivity.java
- com.example.zeta.MainActivity
- com.example.zeta.MainActivity$1
- com.example.zeta.MainActivity$2
+com/example/zeta/databinding/ActivityLoginBinding.java
+ com.example.zeta.databinding.ActivityLoginBinding
+com/example/zeta/databinding/ActivitySignupDestinationBinding.java
+ com.example.zeta.databinding.ActivitySignupDestinationBinding
+com/example/zeta/OxygenCylinders.java
+ com.example.zeta.OxygenCylinders
 com/example/zeta/Childcare.java
  com.example.zeta.Childcare
 com/example/zeta/Location.java
