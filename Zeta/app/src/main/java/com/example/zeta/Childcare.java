@@ -19,19 +19,19 @@ public class Childcare extends AppCompatActivity {
     ArrayList<String> pincodelist= new ArrayList<>();
     ArrayList<String> phonelist= new ArrayList<>();
     ArrayList<String> emaillist= new ArrayList<>();
-
+    TextView childout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_childcare);
+        childout=findViewById(R.id.childout);
         parseJson();
     }
     public void parseJson()
     {   Bundle bundle=getIntent().getExtras();
-        String place=bundle.getString("loc");
-
-
+        //String place=bundle.getString("loc");
+        String place="Panjim";
 
         try
         {
@@ -46,20 +46,23 @@ public class Childcare extends AppCompatActivity {
             {
                 JSONObject jsonObject= jsonarray.getJSONObject(i);
 
-                if(jsonObject.getString("City").equals(place))
-                    addresslist.add(jsonObject.getString("Address"));
-                namelist.add(jsonObject.getString("Name"));
-                phonelist.add(jsonObject.getString("Ph no"));
-                pincodelist.add(jsonObject.getString("Pincode"));
-                emaillist.add(jsonObject.getString("Email"));
-
+                if(jsonObject.getString("City").equals(place)) {
+                    String addresslist = (jsonObject.getString("Address"));
+                    String namelist = (jsonObject.getString("Name"));
+                    String phonelist = (jsonObject.getString("Ph no"));
+                    String pincodelist = (jsonObject.getString("Pincode"));
+                    String emaillist = (jsonObject.getString("Email"));
+                    childout.append(addresslist+" - "+namelist+" - "+phonelist+" - "+pincodelist+" - "+emaillist+"\n");
+                }
             }
 
 
 
         }
-        catch (Exception e)
-        {e.printStackTrace();}
+        catch (Exception e){
+                e.printStackTrace();
+        }
     }
+
 
 }

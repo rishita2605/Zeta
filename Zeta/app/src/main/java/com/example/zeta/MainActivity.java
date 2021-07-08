@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v){
                 Bundle bundle=new Bundle();
                 //Toast.makeText(getBaseContext(), "Success", Toast.LENGTH_SHORT).show();
-                Intent intent=new Intent(MainActivity.this, Services.class);
+                Intent intent=new Intent(MainActivity.this, Location.class);
                 intent.putExtras(bundle);
                 startActivity(intent);
             }
