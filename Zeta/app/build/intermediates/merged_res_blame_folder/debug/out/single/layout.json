@@ -1,38 +1,38 @@
 [
     {
-        "merged": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_bedvaccancy.xml",
-        "source": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/src/main/res/layout/activity_bedvaccancy.xml"
+        "merged": "C:\\Users\\rachu\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_mental_health.xml",
+        "source": "C:\\Users\\rachu\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\layout\\activity_mental_health.xml"
     },
     {
-        "merged": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
-        "source": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/src/main/res/layout/activity_main.xml"
+        "merged": "C:\\Users\\rachu\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\rachu\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_mental_health.xml",
-        "source": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/src/main/res/layout/activity_mental_health.xml"
+        "merged": "C:\\Users\\rachu\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_location.xml",
+        "source": "C:\\Users\\rachu\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\layout\\activity_location.xml"
     },
     {
-        "merged": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_signup.xml",
-        "source": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/src/main/res/layout/activity_signup.xml"
+        "merged": "C:\\Users\\rachu\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "C:\\Users\\rachu\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_login.xml",
-        "source": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/src/main/res/layout/activity_login.xml"
+        "merged": "C:\\Users\\rachu\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_oxygen_cylinders.xml",
+        "source": "C:\\Users\\rachu\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\layout\\activity_oxygen_cylinders.xml"
     },
     {
-        "merged": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_oxygen_cylinders.xml",
-        "source": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/src/main/res/layout/activity_oxygen_cylinders.xml"
+        "merged": "C:\\Users\\rachu\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_services.xml",
+        "source": "C:\\Users\\rachu\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\layout\\activity_services.xml"
     },
     {
-        "merged": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_childcare.xml",
-        "source": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/src/main/res/layout/activity_childcare.xml"
+        "merged": "C:\\Users\\rachu\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_bedvaccancy.xml",
+        "source": "C:\\Users\\rachu\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\layout\\activity_bedvaccancy.xml"
     },
     {
-        "merged": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_location.xml",
-        "source": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/src/main/res/layout/activity_location.xml"
+        "merged": "C:\\Users\\rachu\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_childcare.xml",
+        "source": "C:\\Users\\rachu\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\layout\\activity_childcare.xml"
     },
     {
-        "merged": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_services.xml",
-        "source": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/src/main/res/layout/activity_services.xml"
+        "merged": "C:\\Users\\rachu\\AndroidStudioProjects\\Zeta\\Zeta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_signup.xml",
+        "source": "C:\\Users\\rachu\\AndroidStudioProjects\\Zeta\\Zeta\\app\\src\\main\\res\\layout\\activity_signup.xml"
     }
 ]
