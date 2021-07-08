@@ -4,6 +4,7 @@ package com.example.zeta.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -23,15 +24,20 @@ public final class ActivitySignupDestinationBinding implements ViewBinding {
   public final ImageView imageView11;
 
   @NonNull
+  public final Button logout;
+
+  @NonNull
   public final TextView textView3;
 
   @NonNull
   public final TextView textView6;
 
   private ActivitySignupDestinationBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageView imageView11, @NonNull TextView textView3, @NonNull TextView textView6) {
+      @NonNull ImageView imageView11, @NonNull Button logout, @NonNull TextView textView3,
+      @NonNull TextView textView6) {
     this.rootView = rootView;
     this.imageView11 = imageView11;
+    this.logout = logout;
     this.textView3 = textView3;
     this.textView6 = textView6;
   }
@@ -69,6 +75,12 @@ public final class ActivitySignupDestinationBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.logout;
+      Button logout = rootView.findViewById(id);
+      if (logout == null) {
+        break missingId;
+      }
+
       id = R.id.textView3;
       TextView textView3 = rootView.findViewById(id);
       if (textView3 == null) {
@@ -81,7 +93,7 @@ public final class ActivitySignupDestinationBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivitySignupDestinationBinding((ConstraintLayout) rootView, imageView11,
+      return new ActivitySignupDestinationBinding((ConstraintLayout) rootView, imageView11, logout,
           textView3, textView6);
     }
     String missingId = rootView.getResources().getResourceName(id);

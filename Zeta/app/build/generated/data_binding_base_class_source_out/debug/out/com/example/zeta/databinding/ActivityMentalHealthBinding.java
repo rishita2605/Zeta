@@ -21,10 +21,14 @@ public final class ActivityMentalHealthBinding implements ViewBinding {
   @NonNull
   public final TextView mentout;
 
-  private ActivityMentalHealthBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView mentout) {
+  @NonNull
+  public final TextView textView26;
+
+  private ActivityMentalHealthBinding(@NonNull ConstraintLayout rootView, @NonNull TextView mentout,
+      @NonNull TextView textView26) {
     this.rootView = rootView;
     this.mentout = mentout;
+    this.textView26 = textView26;
   }
 
   @Override
@@ -60,7 +64,13 @@ public final class ActivityMentalHealthBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMentalHealthBinding((ConstraintLayout) rootView, mentout);
+      id = R.id.textView26;
+      TextView textView26 = rootView.findViewById(id);
+      if (textView26 == null) {
+        break missingId;
+      }
+
+      return new ActivityMentalHealthBinding((ConstraintLayout) rootView, mentout, textView26);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

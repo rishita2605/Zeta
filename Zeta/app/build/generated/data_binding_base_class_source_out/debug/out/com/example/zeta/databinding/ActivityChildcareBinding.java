@@ -24,11 +24,16 @@ public final class ActivityChildcareBinding implements ViewBinding {
   @NonNull
   public final TextView childout;
 
+  @NonNull
+  public final TextView textView26;
+
   private ActivityChildcareBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout childcareSubmitButton, @NonNull TextView childout) {
+      @NonNull ConstraintLayout childcareSubmitButton, @NonNull TextView childout,
+      @NonNull TextView textView26) {
     this.rootView = rootView;
     this.childcareSubmitButton = childcareSubmitButton;
     this.childout = childout;
+    this.textView26 = textView26;
   }
 
   @Override
@@ -66,8 +71,14 @@ public final class ActivityChildcareBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView26;
+      TextView textView26 = rootView.findViewById(id);
+      if (textView26 == null) {
+        break missingId;
+      }
+
       return new ActivityChildcareBinding((ConstraintLayout) rootView, childcareSubmitButton,
-          childout);
+          childout, textView26);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
