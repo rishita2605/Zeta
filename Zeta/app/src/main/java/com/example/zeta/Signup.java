@@ -132,6 +132,13 @@ public class Signup extends AppCompatActivity {
                 //});
             }
         });
+
+        mloginBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), Login.class));
+            }
+        });
     }
 
 }
