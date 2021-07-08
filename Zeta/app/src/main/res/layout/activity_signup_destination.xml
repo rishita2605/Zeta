@@ -4,17 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient"
     tools:context=".SignupDestination">
 
     <LinearLayout
         android:layout_width="409dp"
         android:layout_height="729dp"
+        android:background="@drawable/gradient"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:background="@drawable/gradient">
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
             android:id="@+id/imageView11"
@@ -51,7 +52,9 @@
             android:id="@+id/logout"
             android:layout_width="310dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="logout"
             android:text="Logout"
-            android:onClick="logout"/>
+            app:cornerRadius="40dp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
