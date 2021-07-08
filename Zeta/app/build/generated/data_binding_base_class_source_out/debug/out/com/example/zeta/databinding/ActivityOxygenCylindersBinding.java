@@ -19,25 +19,12 @@ public final class ActivityOxygenCylindersBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView agencyName;
-
-  @NonNull
-  public final TextView city;
-
-  @NonNull
-  public final TextView contactNumber;
-
-  @NonNull
-  public final TextView personName;
+  public final TextView out;
 
   private ActivityOxygenCylindersBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView agencyName, @NonNull TextView city, @NonNull TextView contactNumber,
-      @NonNull TextView personName) {
+      @NonNull TextView out) {
     this.rootView = rootView;
-    this.agencyName = agencyName;
-    this.city = city;
-    this.contactNumber = contactNumber;
-    this.personName = personName;
+    this.out = out;
   }
 
   @Override
@@ -67,32 +54,13 @@ public final class ActivityOxygenCylindersBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.agency_name;
-      TextView agencyName = rootView.findViewById(id);
-      if (agencyName == null) {
+      id = R.id.out;
+      TextView out = rootView.findViewById(id);
+      if (out == null) {
         break missingId;
       }
 
-      id = R.id.city;
-      TextView city = rootView.findViewById(id);
-      if (city == null) {
-        break missingId;
-      }
-
-      id = R.id.contact_number;
-      TextView contactNumber = rootView.findViewById(id);
-      if (contactNumber == null) {
-        break missingId;
-      }
-
-      id = R.id.person_name;
-      TextView personName = rootView.findViewById(id);
-      if (personName == null) {
-        break missingId;
-      }
-
-      return new ActivityOxygenCylindersBinding((ConstraintLayout) rootView, agencyName, city,
-          contactNumber, personName);
+      return new ActivityOxygenCylindersBinding((ConstraintLayout) rootView, out);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

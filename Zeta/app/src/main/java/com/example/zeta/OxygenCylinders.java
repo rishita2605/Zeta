@@ -17,16 +17,16 @@ import java.util.ArrayList;
 public class OxygenCylinders extends AppCompatActivity {
 
     //TextView agencyName, personName, contactNumber, city;
-
-    ArrayList<String> numberlist = new ArrayList<>();
-    ArrayList<String> agencylist = new ArrayList<>();
-    ArrayList<String> namelist = new ArrayList<>();
+    TextView out;
+//    ArrayList<String> numberlist = new ArrayList<>();
+//    ArrayList<String> agencylist = new ArrayList<>();
+//    ArrayList<String> namelist = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_oxygen_cylinders);
-
+        out=findViewById(R.id.out);
         //agencyName=(TextView) findViewById(R.id.agency_name);
         //personName=(TextView) findViewById(R.id.person_name);
         //contactNumber=(TextView) findViewById(R.id.contact_number);
@@ -36,7 +36,7 @@ public class OxygenCylinders extends AppCompatActivity {
 
     public void parseJSON(){
         Bundle bundle=getIntent().getExtras();
-        //String place=bundle.getString("loc"); //remove this comment when everything integrated
+        //String place=bundle.getString("loc");
         String place="Bangalore";
         String json;
         try{
@@ -50,13 +50,20 @@ public class OxygenCylinders extends AppCompatActivity {
             JSONArray jsonArray=new JSONArray(json);
 
             for(int i=0; i<jsonArray.length(); i++){
-                JSONObject obj=jsonArray.getJSONObject(i);
 
-                if(obj.getString("City").equals(place)){
-                    numberlist.add(obj.getString("Phone number"));
-                    agencylist.add(obj.getString("Agency name"));
-                    namelist.add(obj.getString("Name"));
+                JSONObject obj = jsonArray.getJSONObject(i);
+                if(obj.getString("City")=="Bangalore"){
+                    int Phone = obj.getInt("Phone number");
+                    String Agency = obj.getString("Agency name");
+                    String Name = obj.getString("Name");
+                    out.append(String.valueOf(Phone) + " - " + Agency + " - " + Name + "\n\n");
                 }
+//                if(obj.getString("City").equals(place)){
+//                    int Phone=obj.getInt("Phone number");
+//                    String Agency=obj.getString("Agency name");
+//                    String Name=obj.getString("Name");
+//                    out.append(String.valueOf(Phone)+" - "+Agency+" - "+Name+"\n\n");
+//                }
             }
 
             //Toast.makeText(getApplicationContext(), numberlist.toString(),Toast.LENGTH_LONG).show();

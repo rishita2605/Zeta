@@ -21,7 +21,7 @@ public final class ActivityLocationBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button button5;
+  public final Button conti;
 
   @NonNull
   public final ImageView imageView4;
@@ -29,10 +29,10 @@ public final class ActivityLocationBinding implements ViewBinding {
   @NonNull
   public final EditText loc;
 
-  private ActivityLocationBinding(@NonNull ConstraintLayout rootView, @NonNull Button button5,
+  private ActivityLocationBinding(@NonNull ConstraintLayout rootView, @NonNull Button conti,
       @NonNull ImageView imageView4, @NonNull EditText loc) {
     this.rootView = rootView;
-    this.button5 = button5;
+    this.conti = conti;
     this.imageView4 = imageView4;
     this.loc = loc;
   }
@@ -64,9 +64,9 @@ public final class ActivityLocationBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.button5;
-      Button button5 = rootView.findViewById(id);
-      if (button5 == null) {
+      id = R.id.conti;
+      Button conti = rootView.findViewById(id);
+      if (conti == null) {
         break missingId;
       }
 
@@ -82,7 +82,7 @@ public final class ActivityLocationBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLocationBinding((ConstraintLayout) rootView, button5, imageView4, loc);
+      return new ActivityLocationBinding((ConstraintLayout) rootView, conti, imageView4, loc);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -4,6 +4,7 @@ package com.example.zeta.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -11,6 +12,7 @@ import androidx.viewbinding.ViewBinding;
 import com.example.zeta.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class ActivityChildcareBinding implements ViewBinding {
   @NonNull
@@ -19,10 +21,14 @@ public final class ActivityChildcareBinding implements ViewBinding {
   @NonNull
   public final ConstraintLayout childcareSubmitButton;
 
+  @NonNull
+  public final TextView childout;
+
   private ActivityChildcareBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout childcareSubmitButton) {
+      @NonNull ConstraintLayout childcareSubmitButton, @NonNull TextView childout) {
     this.rootView = rootView;
     this.childcareSubmitButton = childcareSubmitButton;
+    this.childout = childout;
   }
 
   @Override
@@ -48,12 +54,22 @@ public final class ActivityChildcareBinding implements ViewBinding {
 
   @NonNull
   public static ActivityChildcareBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      ConstraintLayout childcareSubmitButton = (ConstraintLayout) rootView;
+
+      id = R.id.childout;
+      TextView childout = rootView.findViewById(id);
+      if (childout == null) {
+        break missingId;
+      }
+
+      return new ActivityChildcareBinding((ConstraintLayout) rootView, childcareSubmitButton,
+          childout);
     }
-
-    ConstraintLayout childcareSubmitButton = (ConstraintLayout) rootView;
-
-    return new ActivityChildcareBinding((ConstraintLayout) rootView, childcareSubmitButton);
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }
