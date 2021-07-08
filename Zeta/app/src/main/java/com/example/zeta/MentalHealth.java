@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -31,8 +30,8 @@ public class MentalHealth extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mental_health);
         mentout=(TextView)findViewById(R.id.mentout);
-        changelocbtn=(Button)findViewById(R.id.changelocbtn);
-        locfield=(TextView)findViewById(R.id.locfield);
+        changelocbtn=(Button)findViewById(R.id.oxychangeloc);
+        locfield=(TextView)findViewById(R.id.oxylocfield);
 
         changelocbtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -51,7 +50,6 @@ public class MentalHealth extends AppCompatActivity {
         //String place=bundle.getString("loc");
         Bundle b=getIntent().getExtras();
         String loc=b.getString("Location").toLowerCase();
-        //Toast.makeText(getBaseContext(), loc, Toast.LENGTH_SHORT).show();
         locfield.setText("Location: "+b.getString("Location"));
         String place="Bangalore";
         String json;
@@ -64,7 +62,7 @@ public class MentalHealth extends AppCompatActivity {
 
             json = new String(buffer,"UTF-8");
             JSONArray jsonArray=new JSONArray(json);
-
+            int flag=0;
             for(int i=0; i<jsonArray.length(); i++){
 
                 JSONObject obj=jsonArray.getJSONObject(i);
@@ -73,12 +71,21 @@ public class MentalHealth extends AppCompatActivity {
                 //Toast.makeText(getBaseContext(),str+"", Toast.LENGTH_SHORT).show();
 
                 if(loc.equals(obj.getString("Name of the District").toLowerCase())){
+                    flag=1;
                     String numberlist=(obj.getString("Contact Number"));
                     String psychiatristlist=(obj.getString("Name of the Psychiatrist"));
                     String emaillist=(obj.getString("E-Mail Address"));
                     String city=(obj.getString("Name of the District"));
                     mentout.append("Phone Number: "+numberlist+"\nName: "+psychiatristlist+"\nEmail: "+emaillist+"\nAddress: "+city+"\n\n");
                 }
+
+            }
+
+            if(flag==0){
+                Bundle bundle = new Bundle();
+                Intent intent=new Intent(MentalHealth.this, Error.class);
+                intent.putExtras(bundle);
+                startActivity(intent);
             }
 
             //Toast.makeText(getApplicationContext(), numberlist.toString(),Toast.LENGTH_LONG).show();

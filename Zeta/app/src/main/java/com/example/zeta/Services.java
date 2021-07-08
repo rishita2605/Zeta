@@ -68,9 +68,9 @@ public class Services extends AppCompatActivity {
     public void openoc()
     {
 
-        Bundle bundle = new Bundle();
+        Bundle b=getIntent().getExtras();
         Intent intent = new Intent(this, OxygenCylinders.class);
-        intent.putExtras(bundle);
+        intent.putExtras(b);
         startActivity(intent);
     }
     public void openmh()

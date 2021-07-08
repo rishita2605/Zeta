@@ -19,15 +19,15 @@ public final class ActivityBedvaccancyBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView childout;
+  public final TextView childout2;
 
   @NonNull
   public final TextView textView26;
 
-  private ActivityBedvaccancyBinding(@NonNull ConstraintLayout rootView, @NonNull TextView childout,
-      @NonNull TextView textView26) {
+  private ActivityBedvaccancyBinding(@NonNull ConstraintLayout rootView,
+      @NonNull TextView childout2, @NonNull TextView textView26) {
     this.rootView = rootView;
-    this.childout = childout;
+    this.childout2 = childout2;
     this.textView26 = textView26;
   }
 
@@ -58,9 +58,9 @@ public final class ActivityBedvaccancyBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.childout;
-      TextView childout = rootView.findViewById(id);
-      if (childout == null) {
+      id = R.id.childout2;
+      TextView childout2 = rootView.findViewById(id);
+      if (childout2 == null) {
         break missingId;
       }
 
@@ -70,7 +70,7 @@ public final class ActivityBedvaccancyBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityBedvaccancyBinding((ConstraintLayout) rootView, childout, textView26);
+      return new ActivityBedvaccancyBinding((ConstraintLayout) rootView, childout2, textView26);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

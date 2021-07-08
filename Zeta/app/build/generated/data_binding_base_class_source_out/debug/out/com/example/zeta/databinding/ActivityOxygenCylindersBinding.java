@@ -4,6 +4,7 @@ package com.example.zeta.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -22,12 +23,20 @@ public final class ActivityOxygenCylindersBinding implements ViewBinding {
   public final TextView out;
 
   @NonNull
+  public final Button oxychangeloc;
+
+  @NonNull
+  public final TextView oxylocfield;
+
+  @NonNull
   public final TextView textView26;
 
   private ActivityOxygenCylindersBinding(@NonNull ConstraintLayout rootView, @NonNull TextView out,
-      @NonNull TextView textView26) {
+      @NonNull Button oxychangeloc, @NonNull TextView oxylocfield, @NonNull TextView textView26) {
     this.rootView = rootView;
     this.out = out;
+    this.oxychangeloc = oxychangeloc;
+    this.oxylocfield = oxylocfield;
     this.textView26 = textView26;
   }
 
@@ -64,13 +73,26 @@ public final class ActivityOxygenCylindersBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.oxychangeloc;
+      Button oxychangeloc = rootView.findViewById(id);
+      if (oxychangeloc == null) {
+        break missingId;
+      }
+
+      id = R.id.oxylocfield;
+      TextView oxylocfield = rootView.findViewById(id);
+      if (oxylocfield == null) {
+        break missingId;
+      }
+
       id = R.id.textView26;
       TextView textView26 = rootView.findViewById(id);
       if (textView26 == null) {
         break missingId;
       }
 
-      return new ActivityOxygenCylindersBinding((ConstraintLayout) rootView, out, textView26);
+      return new ActivityOxygenCylindersBinding((ConstraintLayout) rootView, out, oxychangeloc,
+          oxylocfield, textView26);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
