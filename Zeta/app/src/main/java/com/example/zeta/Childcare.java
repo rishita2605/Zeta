@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 import org.json.JSONArray;
-import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.InputStream;
@@ -25,7 +24,7 @@ public class Childcare extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_childcare);
-        childout=findViewById(R.id.childout);
+        childout=findViewById(R.id.childout2);
         parseJson();
     }
     public void parseJson()
