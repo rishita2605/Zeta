@@ -92,9 +92,9 @@ public class Services extends AppCompatActivity {
     }
     public void opencc()
     {
-        Bundle bundle = new Bundle();
-        Intent intent = new Intent(this, Childcare.class);
-        intent.putExtras(bundle);
+        Bundle b=getIntent().getExtras();
+        Intent intent = new Intent(Services.this, Childcare.class);
+        intent.putExtras(b);
         startActivity(intent);
     }
 }

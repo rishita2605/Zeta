@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -15,7 +14,6 @@ import org.json.JSONObject;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
 
 public class OxygenCylinders extends AppCompatActivity {
 
@@ -30,8 +28,8 @@ public class OxygenCylinders extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_oxygen_cylinders);
         out=findViewById(R.id.out);
-        oxychangeloc=findViewById(R.id.oxychangeloc);
-        locfield=findViewById(R.id.oxylocfield);
+        oxychangeloc=findViewById(R.id.childchangeloc);
+        locfield=findViewById(R.id.childlocfield);
 
         oxychangeloc.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {

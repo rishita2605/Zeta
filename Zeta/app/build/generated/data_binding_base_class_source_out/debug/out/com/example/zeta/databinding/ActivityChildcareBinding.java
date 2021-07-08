@@ -4,6 +4,7 @@ package com.example.zeta.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -22,17 +23,25 @@ public final class ActivityChildcareBinding implements ViewBinding {
   public final ConstraintLayout childcareSubmitButton;
 
   @NonNull
-  public final TextView childout2;
+  public final Button childchangeloc;
+
+  @NonNull
+  public final TextView childlocfield;
+
+  @NonNull
+  public final TextView childout;
 
   @NonNull
   public final TextView textView26;
 
   private ActivityChildcareBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout childcareSubmitButton, @NonNull TextView childout2,
-      @NonNull TextView textView26) {
+      @NonNull ConstraintLayout childcareSubmitButton, @NonNull Button childchangeloc,
+      @NonNull TextView childlocfield, @NonNull TextView childout, @NonNull TextView textView26) {
     this.rootView = rootView;
     this.childcareSubmitButton = childcareSubmitButton;
-    this.childout2 = childout2;
+    this.childchangeloc = childchangeloc;
+    this.childlocfield = childlocfield;
+    this.childout = childout;
     this.textView26 = textView26;
   }
 
@@ -65,9 +74,21 @@ public final class ActivityChildcareBinding implements ViewBinding {
     missingId: {
       ConstraintLayout childcareSubmitButton = (ConstraintLayout) rootView;
 
-      id = R.id.childout2;
-      TextView childout2 = rootView.findViewById(id);
-      if (childout2 == null) {
+      id = R.id.childchangeloc;
+      Button childchangeloc = rootView.findViewById(id);
+      if (childchangeloc == null) {
+        break missingId;
+      }
+
+      id = R.id.childlocfield;
+      TextView childlocfield = rootView.findViewById(id);
+      if (childlocfield == null) {
+        break missingId;
+      }
+
+      id = R.id.childout;
+      TextView childout = rootView.findViewById(id);
+      if (childout == null) {
         break missingId;
       }
 
@@ -78,7 +99,7 @@ public final class ActivityChildcareBinding implements ViewBinding {
       }
 
       return new ActivityChildcareBinding((ConstraintLayout) rootView, childcareSubmitButton,
-          childout2, textView26);
+          childchangeloc, childlocfield, childout, textView26);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

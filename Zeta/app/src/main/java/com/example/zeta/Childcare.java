@@ -2,7 +2,10 @@ package com.example.zeta;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import org.json.JSONArray;
@@ -18,21 +21,33 @@ public class Childcare extends AppCompatActivity {
     ArrayList<String> pincodelist= new ArrayList<>();
     ArrayList<String> phonelist= new ArrayList<>();
     ArrayList<String> emaillist= new ArrayList<>();
-    TextView childout;
+    TextView childout,locfield;
+    Button changelocbtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_childcare);
-        childout=findViewById(R.id.childout2);
+        childout=findViewById(R.id.childout);
+        locfield=findViewById(R.id.childlocfield);
+        changelocbtn=findViewById(R.id.childchangeloc);
+
+        changelocbtn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Bundle bundle = new Bundle();
+                //Toast.makeText(getBaseContext(), "Success", Toast.LENGTH_SHORT).show();
+                Intent intent=new Intent(Childcare.this, Location.class);
+                intent.putExtras(bundle);
+                startActivity(intent);
+            }
+        });
+
         parseJson();
     }
     public void parseJson()
-    {   Bundle bundle=getIntent().getExtras();
-        //String place=bundle.getString("loc");
-       // String place="Panjim";
-        Location l=new Location();
-        String place=l.getlocation();
+    {   Bundle b=getIntent().getExtras();
+        String loc=b.getString("Location").toLowerCase();
+        locfield.setText("Location: "+b.getString("Location"));
 
         try
         {
@@ -42,21 +57,31 @@ public class Childcare extends AppCompatActivity {
             inputStream.read(data);
             String readData=new String(data,"UTF-8");
             JSONArray jsonarray= new JSONArray(readData);
-
+            int flag=0;
             for(int i=0; i<jsonarray.length(); i++)
             {
                 JSONObject jsonObject= jsonarray.getJSONObject(i);
 
-                if(jsonObject.getString("City").equals(place)) {
+                if(jsonObject.getString("City").toLowerCase().equals(loc)) {
+                    flag=1;
                     String addresslist = (jsonObject.getString("Address"));
                     String namelist = (jsonObject.getString("Name"));
                     String phonelist = (jsonObject.getString("Ph no"));
                     String pincodelist = (jsonObject.getString("Pincode"));
                     String emaillist = (jsonObject.getString("Email"));
-                    childout.append(addresslist+" - "+namelist+" - "+phonelist+" - "+pincodelist+" - "+emaillist+"\n");
+                    //childout.append(addresslist+" - "+namelist+" - "+phonelist+" - "+pincodelist+" - "+emaillist+"\n");
+                    childout.append("Name: "+namelist+"\nPhone Number: "+phonelist+"\nAddress: "+addresslist+"\nPincode: "+pincodelist+"\nEmail: "+emaillist+"\n\n");
+                    //childout.append("Hello");
                 }
             }
 
+
+            if(flag==0){
+                Bundle bundle = new Bundle();
+                Intent intent=new Intent(Childcare.this, Error.class);
+                intent.putExtras(bundle);
+                startActivity(intent);
+            }
 
 
         }

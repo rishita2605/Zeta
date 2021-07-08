@@ -20,23 +20,24 @@ public final class ActivityOxygenCylindersBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final Button childchangeloc;
+
+  @NonNull
+  public final TextView childlocfield;
+
+  @NonNull
   public final TextView out;
-
-  @NonNull
-  public final Button oxychangeloc;
-
-  @NonNull
-  public final TextView oxylocfield;
 
   @NonNull
   public final TextView textView26;
 
-  private ActivityOxygenCylindersBinding(@NonNull ConstraintLayout rootView, @NonNull TextView out,
-      @NonNull Button oxychangeloc, @NonNull TextView oxylocfield, @NonNull TextView textView26) {
+  private ActivityOxygenCylindersBinding(@NonNull ConstraintLayout rootView,
+      @NonNull Button childchangeloc, @NonNull TextView childlocfield, @NonNull TextView out,
+      @NonNull TextView textView26) {
     this.rootView = rootView;
+    this.childchangeloc = childchangeloc;
+    this.childlocfield = childlocfield;
     this.out = out;
-    this.oxychangeloc = oxychangeloc;
-    this.oxylocfield = oxylocfield;
     this.textView26 = textView26;
   }
 
@@ -67,21 +68,21 @@ public final class ActivityOxygenCylindersBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.childchangeloc;
+      Button childchangeloc = rootView.findViewById(id);
+      if (childchangeloc == null) {
+        break missingId;
+      }
+
+      id = R.id.childlocfield;
+      TextView childlocfield = rootView.findViewById(id);
+      if (childlocfield == null) {
+        break missingId;
+      }
+
       id = R.id.out;
       TextView out = rootView.findViewById(id);
       if (out == null) {
-        break missingId;
-      }
-
-      id = R.id.oxychangeloc;
-      Button oxychangeloc = rootView.findViewById(id);
-      if (oxychangeloc == null) {
-        break missingId;
-      }
-
-      id = R.id.oxylocfield;
-      TextView oxylocfield = rootView.findViewById(id);
-      if (oxylocfield == null) {
         break missingId;
       }
 
@@ -91,8 +92,8 @@ public final class ActivityOxygenCylindersBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityOxygenCylindersBinding((ConstraintLayout) rootView, out, oxychangeloc,
-          oxylocfield, textView26);
+      return new ActivityOxygenCylindersBinding((ConstraintLayout) rootView, childchangeloc,
+          childlocfield, out, textView26);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

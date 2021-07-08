@@ -44,16 +44,10 @@ com/example/zeta/databinding/ActivityOxygenCylindersBinding.java
  com.example.zeta.databinding.ActivityOxygenCylindersBinding
 com/example/zeta/databinding/ActivityBloodbankBinding.java
  com.example.zeta.databinding.ActivityBloodbankBinding
-com/example/zeta/Location.java
- com.example.zeta.Location
- com.example.zeta.Location$1
-com/example/zeta/Services.java
- com.example.zeta.Services
- com.example.zeta.Services$1
- com.example.zeta.Services$2
- com.example.zeta.Services$3
- com.example.zeta.Services$4
- com.example.zeta.Services$5
+com/example/zeta/Bloodbank.java
+ com.example.zeta.Bloodbank
+com/example/zeta/databinding/ActivityLoginBinding.java
+ com.example.zeta.databinding.ActivityLoginBinding
 com/example/zeta/databinding/ActivityMainBinding.java
  com.example.zeta.databinding.ActivityMainBinding
 com/example/zeta/SignupDestination.java
@@ -68,9 +62,18 @@ com/example/zeta/databinding/FragmentFirstBinding.java
  com.example.zeta.databinding.FragmentFirstBinding
 com/example/zeta/databinding/ActivityServicesBinding.java
  com.example.zeta.databinding.ActivityServicesBinding
-com/example/zeta/Childcare.java
- com.example.zeta.Childcare
-com/example/zeta/databinding/ActivityLoginBinding.java
- com.example.zeta.databinding.ActivityLoginBinding
 com/example/zeta/databinding/ActivitySignupDestinationBinding.java
  com.example.zeta.databinding.ActivitySignupDestinationBinding
+com/example/zeta/Location.java
+ com.example.zeta.Location
+ com.example.zeta.Location$1
+com/example/zeta/Childcare.java
+ com.example.zeta.Childcare
+ com.example.zeta.Childcare$1
+com/example/zeta/Services.java
+ com.example.zeta.Services
+ com.example.zeta.Services$1
+ com.example.zeta.Services$2
+ com.example.zeta.Services$3
+ com.example.zeta.Services$4
+ com.example.zeta.Services$5

@@ -29,9 +29,9 @@ public class MentalHealth extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mental_health);
-        mentout=(TextView)findViewById(R.id.mentout);
-        changelocbtn=(Button)findViewById(R.id.oxychangeloc);
-        locfield=(TextView)findViewById(R.id.oxylocfield);
+        mentout=(TextView)findViewById(R.id.childout);
+        changelocbtn=(Button)findViewById(R.id.childchangeloc);
+        locfield=(TextView)findViewById(R.id.childlocfield);
 
         changelocbtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {

@@ -20,23 +20,24 @@ public final class ActivityMentalHealthBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView mentout;
+  public final Button childchangeloc;
 
   @NonNull
-  public final Button oxychangeloc;
+  public final TextView childlocfield;
 
   @NonNull
-  public final TextView oxylocfield;
+  public final TextView childout;
 
   @NonNull
   public final TextView textView26;
 
-  private ActivityMentalHealthBinding(@NonNull ConstraintLayout rootView, @NonNull TextView mentout,
-      @NonNull Button oxychangeloc, @NonNull TextView oxylocfield, @NonNull TextView textView26) {
+  private ActivityMentalHealthBinding(@NonNull ConstraintLayout rootView,
+      @NonNull Button childchangeloc, @NonNull TextView childlocfield, @NonNull TextView childout,
+      @NonNull TextView textView26) {
     this.rootView = rootView;
-    this.mentout = mentout;
-    this.oxychangeloc = oxychangeloc;
-    this.oxylocfield = oxylocfield;
+    this.childchangeloc = childchangeloc;
+    this.childlocfield = childlocfield;
+    this.childout = childout;
     this.textView26 = textView26;
   }
 
@@ -67,21 +68,21 @@ public final class ActivityMentalHealthBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.mentout;
-      TextView mentout = rootView.findViewById(id);
-      if (mentout == null) {
+      id = R.id.childchangeloc;
+      Button childchangeloc = rootView.findViewById(id);
+      if (childchangeloc == null) {
         break missingId;
       }
 
-      id = R.id.oxychangeloc;
-      Button oxychangeloc = rootView.findViewById(id);
-      if (oxychangeloc == null) {
+      id = R.id.childlocfield;
+      TextView childlocfield = rootView.findViewById(id);
+      if (childlocfield == null) {
         break missingId;
       }
 
-      id = R.id.oxylocfield;
-      TextView oxylocfield = rootView.findViewById(id);
-      if (oxylocfield == null) {
+      id = R.id.childout;
+      TextView childout = rootView.findViewById(id);
+      if (childout == null) {
         break missingId;
       }
 
@@ -91,8 +92,8 @@ public final class ActivityMentalHealthBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMentalHealthBinding((ConstraintLayout) rootView, mentout, oxychangeloc,
-          oxylocfield, textView26);
+      return new ActivityMentalHealthBinding((ConstraintLayout) rootView, childchangeloc,
+          childlocfield, childout, textView26);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
