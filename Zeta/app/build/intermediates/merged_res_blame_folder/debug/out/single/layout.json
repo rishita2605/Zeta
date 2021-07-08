@@ -8,6 +8,10 @@
         "source": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/src/main/res/layout/activity_main.xml"
     },
     {
+        "merged": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_error.xml",
+        "source": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/src/main/res/layout/activity_error.xml"
+    },
+    {
         "merged": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_mental_health.xml",
         "source": "/Users/rishitaraha/Desktop/College/6th Semester/MAD/Zeta/Zeta/app/src/main/res/layout/activity_mental_health.xml"
     },

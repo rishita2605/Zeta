@@ -27,14 +27,14 @@ public final class ActivityLocationBinding implements ViewBinding {
   public final ImageView imageView4;
 
   @NonNull
-  public final EditText loc;
+  public final EditText locationinput;
 
   private ActivityLocationBinding(@NonNull ConstraintLayout rootView, @NonNull Button conti,
-      @NonNull ImageView imageView4, @NonNull EditText loc) {
+      @NonNull ImageView imageView4, @NonNull EditText locationinput) {
     this.rootView = rootView;
     this.conti = conti;
     this.imageView4 = imageView4;
-    this.loc = loc;
+    this.locationinput = locationinput;
   }
 
   @Override
@@ -76,13 +76,14 @@ public final class ActivityLocationBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.loc;
-      EditText loc = rootView.findViewById(id);
-      if (loc == null) {
+      id = R.id.locationinput;
+      EditText locationinput = rootView.findViewById(id);
+      if (locationinput == null) {
         break missingId;
       }
 
-      return new ActivityLocationBinding((ConstraintLayout) rootView, conti, imageView4, loc);
+      return new ActivityLocationBinding((ConstraintLayout) rootView, conti, imageView4,
+          locationinput);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

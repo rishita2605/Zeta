@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Zeta">
-        <activity android:name=".Bloodbank"></activity>
         <activity android:name=".Error" />
         <activity android:name=".Services" />
         <activity android:name=".Location" />
@@ -19,6 +18,7 @@
         <activity android:name=".Childcare" />
         <activity android:name=".OxygenCylinders" />
         <activity android:name=".MentalHealth" />
+        <activity android:name=".SignupDestination" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

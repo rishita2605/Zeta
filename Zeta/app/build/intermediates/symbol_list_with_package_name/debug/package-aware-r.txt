@@ -1749,6 +1749,7 @@ drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
 drawable mental
 drawable mobilehandy
+drawable monster
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -1883,6 +1884,7 @@ id center_horizontal
 id center_vertical
 id chain
 id chains
+id changelocbtn
 id checkbox
 id checked
 id childcare_submit_button
@@ -1993,6 +1995,7 @@ id imageView11
 id imageView2
 id imageView3
 id imageView4
+id imageView5
 id imageView6
 id imageView7
 id imageView8
@@ -2017,8 +2020,10 @@ id line3
 id linear
 id listMode
 id list_item
-id loc
 id location
+id locationbtn
+id locationinput
+id locfield
 id loginbtn
 id lpassword
 id lsignup
@@ -2227,6 +2232,8 @@ id textView21
 id textView22
 id textView23
 id textView24
+id textView25
+id textView26
 id textView3
 id textView4
 id textView5
@@ -2340,6 +2347,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_bedvaccancy
 layout activity_childcare
+layout activity_error
 layout activity_location
 layout activity_login
 layout activity_main

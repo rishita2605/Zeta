@@ -2,7 +2,10 @@ package com.example.zeta;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -21,19 +24,36 @@ public class MentalHealth extends AppCompatActivity {
     ArrayList<String> emaillist = new ArrayList<>();
     ArrayList<String> psychiatristlist = new ArrayList<>();
     ArrayList<String> numberlist = new ArrayList<>();
-    TextView mentout;
+    TextView mentout,locfield;
+    Button changelocbtn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mental_health);
         mentout=(TextView)findViewById(R.id.mentout);
+        changelocbtn=(Button)findViewById(R.id.changelocbtn);
+        locfield=(TextView)findViewById(R.id.locfield);
+
+        changelocbtn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Bundle bundle = new Bundle();
+                //Toast.makeText(getBaseContext(), "Success", Toast.LENGTH_SHORT).show();
+                Intent intent=new Intent(MentalHealth.this, Location.class);
+                intent.putExtras(bundle);
+                startActivity(intent);
+            }
+        });
+
         parseJSON();
     }
 
     public void parseJSON(){
-        Bundle bundle=getIntent().getExtras();
-        String place=bundle.getString("loc");
-        //String place="Bangalore";
+        //String place=bundle.getString("loc");
+        Bundle b=getIntent().getExtras();
+        String loc=b.getString("Location").toLowerCase();
+        //Toast.makeText(getBaseContext(), loc, Toast.LENGTH_SHORT).show();
+        locfield.setText("Location: "+b.getString("Location"));
+        String place="Bangalore";
         String json;
         try{
             InputStream is=getAssets().open("mentalhealth.json");
@@ -49,16 +69,15 @@ public class MentalHealth extends AppCompatActivity {
 
                 JSONObject obj=jsonArray.getJSONObject(i);
                 //Toast.makeText(getBaseContext(),"Namaste", Toast.LENGTH_SHORT).show();
-                //String str=obj.getString("City");
                 //String str=obj.getString("Name of the District");
                 //Toast.makeText(getBaseContext(),str+"", Toast.LENGTH_SHORT).show();
 
-                if(place.equals(obj.getString("Name of the District"))){
+                if(loc.equals(obj.getString("Name of the District").toLowerCase())){
                     String numberlist=(obj.getString("Contact Number"));
                     String psychiatristlist=(obj.getString("Name of the Psychiatrist"));
                     String emaillist=(obj.getString("E-Mail Address"));
                     String city=(obj.getString("Name of the District"));
-                    mentout.append(numberlist+" - "+psychiatristlist+" - "+emaillist+" - "+city+"\n\n");
+                    mentout.append("Phone Number: "+numberlist+"\nName: "+psychiatristlist+"\nEmail: "+emaillist+"\nAddress: "+city+"\n\n");
                 }
             }
 
