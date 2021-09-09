@@ -5,6 +5,10 @@
 A covid-19 resource locator app
 
 ## To run the project
+- Open Project in Android Studio
+- Change jdk location to the jdk location on you system 
+- Run the app
+
 
 ## Screenshots
 
@@ -14,7 +18,8 @@ A covid-19 resource locator app
 
 ### For People who need help/resources
 
-![iPhone 8 - 4](https://user-images.githubusercontent.com/64982040/132714213-2633b687-42ac-413f-9865-a8bf037613b2.png) ![iPhone 8 - 3](https://user-images.githubusercontent.com/64982040/132714269-e6ae694b-3199-4219-aba6-a83266051e3a.png)
+![iPhone 8 - 4](https://user-images.githubusercontent.com/64982040/132714213-2633b687-42ac-413f-9865-a8bf037613b2.png)
+![iPhone 8 - 3](https://user-images.githubusercontent.com/64982040/132714269-e6ae694b-3199-4219-aba6-a83266051e3a.png)
 
 
 ### For Volunteers
